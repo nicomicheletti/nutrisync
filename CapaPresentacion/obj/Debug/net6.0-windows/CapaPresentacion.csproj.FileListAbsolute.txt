@@ -1,0 +1,343 @@
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentación.Inicio.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentación.Login.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.exe
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.deps.json
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CopyComplete
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\refint\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll.config
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCategoria.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCliente.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmProducto.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmProveedor.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmSeguridad.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCompras.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmDetalleVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmNegocio.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Proveedor.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Producto.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Cliente.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmReporteCompras.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmReporteVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_AcercaDe.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmGrupo.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmPermiso.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_AgregarComponenteAGrupo.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetalleGrupoPermiso.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetallePermisoSimple.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetallePermisoUsuario.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmHistorialCompras.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmHistorialVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmAuditoriaVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmBackUp.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.exe
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll.config
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.deps.json
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmAuditoriaVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmBackUp.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCategoria.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCliente.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCompras.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmDetalleVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmGrupo.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmHistorialCompras.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmHistorialVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmNegocio.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmPermiso.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmProducto.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmProveedor.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmReporteCompras.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmReporteVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmSeguridad.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmVentas.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentación.Inicio.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentación.Login.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_AcercaDe.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_AgregarComponenteAGrupo.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Cliente.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetalleGrupoPermiso.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetallePermisoSimple.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetallePermisoUsuario.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Producto.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Proveedor.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CopyComplete
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\refint\CapaPresentacion.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.exe
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll.config
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.deps.json
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidad.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidad.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\bin\Debug\net6.0-windows\CapaDatos.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmAuditoriaVentas.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmBackUp.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCategoria.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCliente.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmCompras.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmDetalleVentas.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmGrupo.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmHistorialCompras.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmHistorialVentas.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmNegocio.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmPermiso.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmProducto.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmProveedor.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmReporteCompras.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmReporteVentas.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmSeguridad.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.frmVentas.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentación.Inicio.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentación.Login.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_AcercaDe.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_AgregarComponenteAGrupo.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Cliente.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetalleGrupoPermiso.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetallePermisoSimple.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_DetallePermisoUsuario.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Producto.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Modales.MD_Proveedor.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfo.cs
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.sourcelink.json
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPres.61CA7C38.Up2Date
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\refint\CapaPresentacion.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaPresentacion\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll

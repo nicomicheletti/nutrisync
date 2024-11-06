@@ -1,0 +1,34 @@
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\bin\Debug\net6.0\CapaEntidad.deps.json
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\refint\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\ref\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\bin\Debug\net6.0\CapaEntidad.deps.json
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\refint\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\Desktop\Proyecto\Gestion De Granos\CapaEntidad\obj\Debug\net6.0\ref\CapaEntidad.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\bin\Debug\net6.0\CapaEntidad.deps.json
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.sourcelink.json
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\refint\CapaEntidad.dll
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\CapaEntidad.pdb
+C:\Users\Nico\Source\Repos\Sistema-NutriSync\CapaEntidad\obj\Debug\net6.0\ref\CapaEntidad.dll

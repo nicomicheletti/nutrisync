@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="frmAuditoriaVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDetalleCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDetalleVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmHistorialCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmHistorialVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmNegocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPermiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmReporteCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmReporteVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_AcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_AgregarComponenteAGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_DetalleGrupoPermiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_DetallePermisoSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_DetallePermisoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modales\MD_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
