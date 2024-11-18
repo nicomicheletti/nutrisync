@@ -233,6 +233,21 @@ exec SP_RegistrarPermiso 'Ver Menu Reporte Compras', 'submenureportecompras', @M
 exec SP_RegistrarPermiso 'Ver Menu Reporte Ventas', 'submenureporteventas', @Mensaje output, @IdPermisoRegistrado output
 exec SP_RegistrarPermiso 'Ver Menu Acerca de', 'menuacercade', @Mensaje output, @IdPermisoRegistrado output
 
+
+declare @IdPermisoRegistrado int
+declare @Mensaje nvarchar(500)
+--CUOTAS
+exec SP_RegistrarPermiso 'Ver Menu Membresia', 'menumembresia', @Mensaje output, @IdPermisoRegistrado output
+exec SP_RegistrarPermiso 'Ver Menu Cuota', 'submenucuota', @Mensaje output, @IdPermisoRegistrado output
+exec SP_RegistrarPermiso 'Registrar Cuota', 'btnguardarcuota', @Mensaje output, @IdPermisoRegistrado output
+exec SP_RegistrarPermiso 'Eliminar Cuota', 'btneliminarcuota', @Mensaje output, @IdPermisoRegistrado output
+
+--PAGOS
+exec SP_RegistrarPermiso 'Ver Menu Pagos', 'submenupago', @Mensaje output, @IdPermisoRegistrado output
+exec SP_RegistrarPermiso 'Registrar Pago', 'btnguardarpago', @Mensaje output, @IdPermisoRegistrado output
+exec SP_RegistrarPermiso 'Eliminar Pago', 'btneliminarpago', @Mensaje output, @IdPermisoRegistrado output
+
+
 select @IdPermisoRegistrado
 
 select @Mensaje

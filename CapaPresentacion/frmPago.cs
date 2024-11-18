@@ -34,9 +34,10 @@ namespace CapaPresentacion
             MostrarCuotas();
             MostrarSocios();
 
+            /*
             //MOSTRAR LOS BOTONES SEGUN EL PERMISO
             List<Permiso> listaPermisos = _usuarioActual.GetPermisos();
-            List<Button> listaBotones = new List<Button> { btnguardarproducto, btneliminarproducto };
+            List<Button> listaBotones = new List<Button> { btnguardarpago, btneliminarpago };
 
             foreach (Button boton in listaBotones)
             {
@@ -50,7 +51,7 @@ namespace CapaPresentacion
                 {
                     boton.Visible = false;
                 }
-            }
+            }*/
         }
 
         public void MostrarDatos()

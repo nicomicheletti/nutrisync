@@ -56,6 +56,9 @@
             lblUsuario = new Label();
             menuStrip1 = new MenuStrip();
             btnsalir = new FontAwesome.Sharp.IconButton();
+            menumembresia = new FontAwesome.Sharp.IconMenuItem();
+            submenucuota = new ToolStripMenuItem();
+            submenupago = new ToolStripMenuItem();
             menu.SuspendLayout();
             SuspendLayout();
             // 
@@ -63,7 +66,7 @@
             // 
             menu.BackColor = Color.White;
             menu.ImageScalingSize = new Size(20, 20);
-            menu.Items.AddRange(new ToolStripItem[] { menuseguridad, menuventas, menucompras, menureportes, menubackup, menuacercade });
+            menu.Items.AddRange(new ToolStripItem[] { menuseguridad, menuventas, menucompras, menureportes, menubackup, menuacercade, menumembresia });
             menu.Location = new Point(0, 73);
             menu.Name = "menu";
             menu.Size = new Size(1253, 73);
@@ -320,6 +323,30 @@
             btnsalir.UseVisualStyleBackColor = false;
             btnsalir.Click += btnsalir_Click;
             // 
+            // menumembresia
+            // 
+            menumembresia.DropDownItems.AddRange(new ToolStripItem[] { submenucuota, submenupago });
+            menumembresia.IconChar = FontAwesome.Sharp.IconChar.None;
+            menumembresia.IconColor = Color.Black;
+            menumembresia.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            menumembresia.Name = "menumembresia";
+            menumembresia.Size = new Size(117, 69);
+            menumembresia.Text = "Membresía";
+            // 
+            // submenucuota
+            // 
+            submenucuota.Name = "submenucuota";
+            submenucuota.Size = new Size(224, 26);
+            submenucuota.Text = "Cuota";
+            submenucuota.Click += cuotaToolStripMenuItem_Click;
+            // 
+            // submenupago
+            // 
+            submenupago.Name = "submenupago";
+            submenupago.Size = new Size(224, 26);
+            submenupago.Text = "Pago";
+            submenupago.Click += submenupago_Click;
+            // 
             // Inicio
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -372,6 +399,9 @@
         private ToolStripMenuItem submenuhistorialventas;
         private ToolStripMenuItem submenuauditoria;
         private FontAwesome.Sharp.IconMenuItem menubackup;
+        private FontAwesome.Sharp.IconMenuItem menumembresia;
+        private ToolStripMenuItem submenucuota;
+        private ToolStripMenuItem submenupago;
     }
 }
 

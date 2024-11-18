@@ -212,10 +212,6 @@ select IdCategoria,Descripcion,Estado from CATEGORIA
 select IdProducto,Codigo,Nombre,p.Descripcion,c.IdCategoria,c.Descripcion[DescripcionCategoria],Stock,PrecioCompra,PrecioVenta,p.Estado from PRODUCTO p
 inner join CATEGORIA c on c.IdCategoria = p.IdCategoria
 
-update NEGOCIO set Nombre = @nombre,
-RUC = @ruc,
-Direccion = @direccion
-where IdNegocio = 1;
 
 select c.IdCompra, u.NombreCompleto, pr.Documento, pr.RazonSocial, c.TipoDocumento, c.NumeroDocumento, c.MontoTotal,CONVERT(char(10), c.FechaRegistro)[FechaRegistro]
 from COMPRA c
@@ -282,7 +278,7 @@ select * from COMPONENTE
 insert into USUARIO_COMPONENTE(IdUsuario,IdComponente)
 values (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),(1,9),(1,10),(1,11),(1,12),(1,13),(1,14),(1,15),(1,16),(1,17),
 (1,18),(1,19),(1,20),(1,21),(1,22),(1,23),(1,24),(1,25),(1,26),(1,27),(1,28),(1,29),(1,30),(1,31),(1,32),(1,33),(1,34),(1,35),(1,36),
-(1,37),(1,38),(1,39),(1,40),(1,41),(1,42),(1,43),(1,44),(1,45),(1,46)
+(1,37),(1,38),(1,39),(1,40),(1,41),(1,42),(1,43),(1,44),(1,45),(1,46),(1,47),(1,48),(1,49),(1,50),(1,51),(1,52),(1,53)
 
 select * from PERMISO where NombreMenu = 'submenuusuario'
 go
@@ -315,6 +311,7 @@ inner join USUARIO u on av.IdUsuario = u.IdUsuario
 inner join VENTA v on av.IdVenta = v.IdVenta
 
 select * from USUARIO
+
 insert into USUARIO values (37715393, 'Nicolas Micheletti', 'nicolasamicheletti@gmail.com', 1234, 1, GETDATE())
 
 insert into USUARIO values (1, 'Nicolas Micheletti', 'nicolasamicheletti@gmail.com', 1234, 1, GETDATE())
@@ -336,4 +333,9 @@ select * from AuditoriaVentas
 
 select * from COMPONENTE
 insert into USUARIO_COMPONENTE(IdUsuario,IdComponente)
+values(1,47),(1,48),(1,49),(1,50),(1,51),(1,52),(1,53)
+
 values (1,1),(1,2),(1,34),(1,42),(1,43),(1,44),(1,45)
+
+insert into NEGOCIO
+VALUES (1,'NUTRISYNç',1234,'CORDOBA 2020',NULL)

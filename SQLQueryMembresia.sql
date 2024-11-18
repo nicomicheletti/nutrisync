@@ -70,17 +70,28 @@ BEGIN
         P.cod_pago AS PAGO, 
         P.cod_cuota AS CUOTA, 
         P.IdCliente AS CLIENTE,
-        C.nombre_soc AS NOMBRE,
-        C.apellido_soc AS APELLIDO,
+        C.NombreCompleto AS NOMBRE,
         P.fecha_pago AS FECHA, 
         P.precio_pago AS PRECIO,
-        C.tipo_nro_doc AS DNI
+        C.Documento AS DNI
     FROM 
         Pagos P
     JOIN 
         CLIENTE C ON P.IdCliente = C.IdCliente;
 END;
 
+--TRIGGER
+create trigger trg_set_precio_pago
+on Pagos
+after insert
+as
+begin
+    update Pagos
+    set precio_pago = Cuotas.precio_cuota
+    from Pagos
+    join Cuotas on Pagos.cod_cuota = Cuotas.cod_cuota
+    where Pagos.cod_pago in (select cod_pago from inserted);
+end;
 --ALTA
 drop procedure sp_AltaPago
 
@@ -90,8 +101,8 @@ create procedure sp_AltaPago
     @fecha_pago date
 as
 begin
-    insert into Pagos (IdCliente, cod_cuota, fecha_pago)
-    values (@IdCliente, @cod_cuota, @fecha_pago);
+    insert into Pagos (IdCliente, cod_cuota,fecha_pago)
+    values (@IdCliente, @cod_cuota ,@fecha_pago);
 end;
 --MOD
 drop procedure sp_ModificarPago

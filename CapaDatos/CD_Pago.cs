@@ -32,7 +32,7 @@ namespace CapaDatos
         public DataTable llenar_socios()
         {
             cmd.Connection = conexion.Abrir();
-            cmd.CommandText = "SELECT IdCliente, documento FROM CLIENTES";
+            cmd.CommandText = "SELECT IdCliente, Documento FROM CLIENTE";
             cmd.CommandType = CommandType.Text;
             leer = cmd.ExecuteReader();
             table.Load(leer);

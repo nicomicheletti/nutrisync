@@ -30,10 +30,10 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            btnguardarproducto = new FontAwesome.Sharp.IconButton();
+            btnguardarcuota = new FontAwesome.Sharp.IconButton();
             btnlimpiar = new FontAwesome.Sharp.IconButton();
             btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
-            btneliminarproducto = new FontAwesome.Sharp.IconButton();
+            btneliminarcuota = new FontAwesome.Sharp.IconButton();
             btnbuscar = new FontAwesome.Sharp.IconButton();
             txtindice = new TextBox();
             txtbusqueda = new TextBox();
@@ -41,18 +41,6 @@
             label11 = new Label();
             txtid = new TextBox();
             dgvdata = new DataGridView();
-            btnSeleccionar = new DataGridViewButtonColumn();
-            Id = new DataGridViewTextBoxColumn();
-            Codigo = new DataGridViewTextBoxColumn();
-            Nombre = new DataGridViewTextBoxColumn();
-            Descripcion = new DataGridViewTextBoxColumn();
-            IdCategoria = new DataGridViewTextBoxColumn();
-            Categoria = new DataGridViewTextBoxColumn();
-            Stock = new DataGridViewTextBoxColumn();
-            PrecioCompra = new DataGridViewTextBoxColumn();
-            PrecioVenta = new DataGridViewTextBoxColumn();
-            EstadoValor = new DataGridViewTextBoxColumn();
-            Estado = new DataGridViewTextBoxColumn();
             label9 = new Label();
             label7 = new Label();
             txtanio = new TextBox();
@@ -67,27 +55,27 @@
             ((System.ComponentModel.ISupportInitialize)dgvdata).BeginInit();
             SuspendLayout();
             // 
-            // btnguardarproducto
+            // btnguardarcuota
             // 
-            btnguardarproducto.BackColor = Color.DarkGreen;
-            btnguardarproducto.Cursor = Cursors.Hand;
-            btnguardarproducto.FlatAppearance.BorderColor = Color.Black;
-            btnguardarproducto.FlatStyle = FlatStyle.Flat;
-            btnguardarproducto.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnguardarproducto.ForeColor = Color.White;
-            btnguardarproducto.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
-            btnguardarproducto.IconColor = Color.White;
-            btnguardarproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnguardarproducto.IconSize = 25;
-            btnguardarproducto.Location = new Point(27, 518);
-            btnguardarproducto.Name = "btnguardarproducto";
-            btnguardarproducto.Size = new Size(299, 33);
-            btnguardarproducto.TabIndex = 81;
-            btnguardarproducto.Text = "Guardar";
-            btnguardarproducto.TextAlign = ContentAlignment.MiddleRight;
-            btnguardarproducto.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnguardarproducto.UseVisualStyleBackColor = false;
-            btnguardarproducto.Click += btnguardarproducto_Click;
+            btnguardarcuota.BackColor = Color.DarkGreen;
+            btnguardarcuota.Cursor = Cursors.Hand;
+            btnguardarcuota.FlatAppearance.BorderColor = Color.Black;
+            btnguardarcuota.FlatStyle = FlatStyle.Flat;
+            btnguardarcuota.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnguardarcuota.ForeColor = Color.White;
+            btnguardarcuota.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
+            btnguardarcuota.IconColor = Color.White;
+            btnguardarcuota.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnguardarcuota.IconSize = 25;
+            btnguardarcuota.Location = new Point(27, 518);
+            btnguardarcuota.Name = "btnguardarcuota";
+            btnguardarcuota.Size = new Size(299, 33);
+            btnguardarcuota.TabIndex = 81;
+            btnguardarcuota.Text = "Guardar";
+            btnguardarcuota.TextAlign = ContentAlignment.MiddleRight;
+            btnguardarcuota.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnguardarcuota.UseVisualStyleBackColor = false;
+            btnguardarcuota.Click += btnguardarproducto_Click;
             // 
             // btnlimpiar
             // 
@@ -130,27 +118,27 @@
             btnlimpiarbuscador.TabIndex = 83;
             btnlimpiarbuscador.UseVisualStyleBackColor = false;
             // 
-            // btneliminarproducto
+            // btneliminarcuota
             // 
-            btneliminarproducto.BackColor = Color.DarkGreen;
-            btneliminarproducto.Cursor = Cursors.Hand;
-            btneliminarproducto.FlatAppearance.BorderColor = Color.Black;
-            btneliminarproducto.FlatStyle = FlatStyle.Flat;
-            btneliminarproducto.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btneliminarproducto.ForeColor = Color.White;
-            btneliminarproducto.IconChar = FontAwesome.Sharp.IconChar.Trash;
-            btneliminarproducto.IconColor = Color.White;
-            btneliminarproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btneliminarproducto.IconSize = 25;
-            btneliminarproducto.Location = new Point(27, 596);
-            btneliminarproducto.Name = "btneliminarproducto";
-            btneliminarproducto.Size = new Size(299, 33);
-            btneliminarproducto.TabIndex = 82;
-            btneliminarproducto.Text = " Eliminar";
-            btneliminarproducto.TextAlign = ContentAlignment.MiddleRight;
-            btneliminarproducto.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btneliminarproducto.UseVisualStyleBackColor = false;
-            btneliminarproducto.Click += btneliminarproducto_Click;
+            btneliminarcuota.BackColor = Color.DarkGreen;
+            btneliminarcuota.Cursor = Cursors.Hand;
+            btneliminarcuota.FlatAppearance.BorderColor = Color.Black;
+            btneliminarcuota.FlatStyle = FlatStyle.Flat;
+            btneliminarcuota.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btneliminarcuota.ForeColor = Color.White;
+            btneliminarcuota.IconChar = FontAwesome.Sharp.IconChar.Trash;
+            btneliminarcuota.IconColor = Color.White;
+            btneliminarcuota.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btneliminarcuota.IconSize = 25;
+            btneliminarcuota.Location = new Point(27, 596);
+            btneliminarcuota.Name = "btneliminarcuota";
+            btneliminarcuota.Size = new Size(299, 33);
+            btneliminarcuota.TabIndex = 82;
+            btneliminarcuota.Text = " Eliminar";
+            btneliminarcuota.TextAlign = ContentAlignment.MiddleRight;
+            btneliminarcuota.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btneliminarcuota.UseVisualStyleBackColor = false;
+            btneliminarcuota.Click += btneliminarproducto_Click;
             // 
             // btnbuscar
             // 
@@ -232,7 +220,6 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvdata.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvdata.Columns.AddRange(new DataGridViewColumn[] { btnSeleccionar, Id, Codigo, Nombre, Descripcion, IdCategoria, Categoria, Stock, PrecioCompra, PrecioVenta, EstadoValor, Estado });
             dgvdata.Location = new Point(394, 87);
             dgvdata.MultiSelect = false;
             dgvdata.Name = "dgvdata";
@@ -249,105 +236,6 @@
             dgvdata.RowTemplate.Height = 28;
             dgvdata.Size = new Size(866, 558);
             dgvdata.TabIndex = 72;
-            // 
-            // btnSeleccionar
-            // 
-            btnSeleccionar.HeaderText = "";
-            btnSeleccionar.MinimumWidth = 6;
-            btnSeleccionar.Name = "btnSeleccionar";
-            btnSeleccionar.ReadOnly = true;
-            btnSeleccionar.Width = 30;
-            // 
-            // Id
-            // 
-            Id.HeaderText = "Id";
-            Id.MinimumWidth = 6;
-            Id.Name = "Id";
-            Id.ReadOnly = true;
-            Id.Visible = false;
-            Id.Width = 125;
-            // 
-            // Codigo
-            // 
-            Codigo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Codigo.HeaderText = "Código";
-            Codigo.MinimumWidth = 6;
-            Codigo.Name = "Codigo";
-            Codigo.ReadOnly = true;
-            // 
-            // Nombre
-            // 
-            Nombre.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Nombre.HeaderText = "Nombre";
-            Nombre.MinimumWidth = 6;
-            Nombre.Name = "Nombre";
-            Nombre.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            Descripcion.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Descripcion.HeaderText = "Descripción";
-            Descripcion.MinimumWidth = 6;
-            Descripcion.Name = "Descripcion";
-            Descripcion.ReadOnly = true;
-            // 
-            // IdCategoria
-            // 
-            IdCategoria.HeaderText = "IdCategoria";
-            IdCategoria.MinimumWidth = 6;
-            IdCategoria.Name = "IdCategoria";
-            IdCategoria.ReadOnly = true;
-            IdCategoria.Visible = false;
-            IdCategoria.Width = 125;
-            // 
-            // Categoria
-            // 
-            Categoria.HeaderText = "Categoria";
-            Categoria.MinimumWidth = 6;
-            Categoria.Name = "Categoria";
-            Categoria.ReadOnly = true;
-            Categoria.Width = 125;
-            // 
-            // Stock
-            // 
-            Stock.HeaderText = "Stock";
-            Stock.MinimumWidth = 6;
-            Stock.Name = "Stock";
-            Stock.ReadOnly = true;
-            Stock.Width = 110;
-            // 
-            // PrecioCompra
-            // 
-            PrecioCompra.HeaderText = "Precio Compra";
-            PrecioCompra.MinimumWidth = 6;
-            PrecioCompra.Name = "PrecioCompra";
-            PrecioCompra.ReadOnly = true;
-            PrecioCompra.Width = 80;
-            // 
-            // PrecioVenta
-            // 
-            PrecioVenta.HeaderText = "Precio Venta";
-            PrecioVenta.MinimumWidth = 6;
-            PrecioVenta.Name = "PrecioVenta";
-            PrecioVenta.ReadOnly = true;
-            PrecioVenta.Width = 80;
-            // 
-            // EstadoValor
-            // 
-            EstadoValor.HeaderText = "Estado Valor";
-            EstadoValor.MinimumWidth = 6;
-            EstadoValor.Name = "EstadoValor";
-            EstadoValor.ReadOnly = true;
-            EstadoValor.Visible = false;
-            EstadoValor.Width = 125;
-            // 
-            // Estado
-            // 
-            Estado.HeaderText = "Estado";
-            Estado.MinimumWidth = 6;
-            Estado.Name = "Estado";
-            Estado.ReadOnly = true;
-            Estado.Width = 80;
             // 
             // label9
             // 
@@ -456,10 +344,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1288, 641);
             Controls.Add(txtprecio);
-            Controls.Add(btnguardarproducto);
+            Controls.Add(btnguardarcuota);
             Controls.Add(btnlimpiar);
             Controls.Add(btnlimpiarbuscador);
-            Controls.Add(btneliminarproducto);
+            Controls.Add(btneliminarcuota);
             Controls.Add(btnbuscar);
             Controls.Add(txtindice);
             Controls.Add(txtbusqueda);
@@ -487,10 +375,10 @@
 
         #endregion
 
-        private FontAwesome.Sharp.IconButton btnguardarproducto;
+        private FontAwesome.Sharp.IconButton btnguardarcuota;
         private FontAwesome.Sharp.IconButton btnlimpiar;
         private FontAwesome.Sharp.IconButton btnlimpiarbuscador;
-        private FontAwesome.Sharp.IconButton btneliminarproducto;
+        private FontAwesome.Sharp.IconButton btneliminarcuota;
         private FontAwesome.Sharp.IconButton btnbuscar;
         private TextBox txtindice;
         private TextBox txtbusqueda;
@@ -498,18 +386,6 @@
         private Label label11;
         private TextBox txtid;
         private DataGridView dgvdata;
-        private DataGridViewButtonColumn btnSeleccionar;
-        private DataGridViewTextBoxColumn Id;
-        private DataGridViewTextBoxColumn Codigo;
-        private DataGridViewTextBoxColumn Nombre;
-        private DataGridViewTextBoxColumn Descripcion;
-        private DataGridViewTextBoxColumn IdCategoria;
-        private DataGridViewTextBoxColumn Categoria;
-        private DataGridViewTextBoxColumn Stock;
-        private DataGridViewTextBoxColumn PrecioCompra;
-        private DataGridViewTextBoxColumn PrecioVenta;
-        private DataGridViewTextBoxColumn EstadoValor;
-        private DataGridViewTextBoxColumn Estado;
         private Label label9;
         private Label label7;
         private TextBox txtanio;

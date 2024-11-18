@@ -232,6 +232,14 @@ namespace CapaPresentación
             AbrirFormulario(menubackup, new frmBackUp());
         }
 
-       
+        private void cuotaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menumembresia, new frmCuota());
+        }
+
+        private void submenupago_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menumembresia, new frmPago());
+        }
     }
 }
