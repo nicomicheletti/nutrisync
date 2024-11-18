@@ -347,5 +347,10 @@ namespace CapaPresentacion
                 e.Handled = false;
             }
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

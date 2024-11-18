@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class frmProducto
+    partial class frmCuota
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,16 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProducto));
+            btnguardarproducto = new FontAwesome.Sharp.IconButton();
+            btnlimpiar = new FontAwesome.Sharp.IconButton();
+            btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
+            btneliminarproducto = new FontAwesome.Sharp.IconButton();
+            btnbuscar = new FontAwesome.Sharp.IconButton();
             txtindice = new TextBox();
             txtbusqueda = new TextBox();
             cbbusqueda = new ComboBox();
             label11 = new Label();
             txtid = new TextBox();
-            label10 = new Label();
             dgvdata = new DataGridView();
             btnSeleccionar = new DataGridViewButtonColumn();
             Id = new DataGridViewTextBoxColumn();
@@ -51,83 +54,169 @@
             EstadoValor = new DataGridViewTextBoxColumn();
             Estado = new DataGridViewTextBoxColumn();
             label9 = new Label();
-            cbestado = new ComboBox();
-            cbcategoria = new ComboBox();
-            label8 = new Label();
             label7 = new Label();
-            txtdescripcion = new TextBox();
-            txtnombre = new TextBox();
+            txtanio = new TextBox();
+            txtmes = new TextBox();
             txtcodigo = new TextBox();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            btnbuscar = new FontAwesome.Sharp.IconButton();
-            btnguardarproducto = new FontAwesome.Sharp.IconButton();
-            btnlimpiar = new FontAwesome.Sharp.IconButton();
-            btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
-            btneliminarproducto = new FontAwesome.Sharp.IconButton();
+            label10 = new Label();
+            txtprecio = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvdata).BeginInit();
             SuspendLayout();
             // 
+            // btnguardarproducto
+            // 
+            btnguardarproducto.BackColor = Color.DarkGreen;
+            btnguardarproducto.Cursor = Cursors.Hand;
+            btnguardarproducto.FlatAppearance.BorderColor = Color.Black;
+            btnguardarproducto.FlatStyle = FlatStyle.Flat;
+            btnguardarproducto.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnguardarproducto.ForeColor = Color.White;
+            btnguardarproducto.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
+            btnguardarproducto.IconColor = Color.White;
+            btnguardarproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnguardarproducto.IconSize = 25;
+            btnguardarproducto.Location = new Point(27, 518);
+            btnguardarproducto.Name = "btnguardarproducto";
+            btnguardarproducto.Size = new Size(299, 33);
+            btnguardarproducto.TabIndex = 81;
+            btnguardarproducto.Text = "Guardar";
+            btnguardarproducto.TextAlign = ContentAlignment.MiddleRight;
+            btnguardarproducto.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnguardarproducto.UseVisualStyleBackColor = false;
+            btnguardarproducto.Click += btnguardarproducto_Click;
+            // 
+            // btnlimpiar
+            // 
+            btnlimpiar.BackColor = Color.DarkGreen;
+            btnlimpiar.Cursor = Cursors.Hand;
+            btnlimpiar.FlatAppearance.BorderColor = Color.Black;
+            btnlimpiar.FlatStyle = FlatStyle.Flat;
+            btnlimpiar.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnlimpiar.ForeColor = Color.White;
+            btnlimpiar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
+            btnlimpiar.IconColor = Color.White;
+            btnlimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnlimpiar.IconSize = 25;
+            btnlimpiar.Location = new Point(27, 557);
+            btnlimpiar.Name = "btnlimpiar";
+            btnlimpiar.Size = new Size(299, 33);
+            btnlimpiar.TabIndex = 80;
+            btnlimpiar.Text = "Limpiar";
+            btnlimpiar.TextAlign = ContentAlignment.MiddleRight;
+            btnlimpiar.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnlimpiar.UseVisualStyleBackColor = false;
+            btnlimpiar.Click += btnlimpiar_Click;
+            // 
+            // btnlimpiarbuscador
+            // 
+            btnlimpiarbuscador.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnlimpiarbuscador.BackColor = Color.DarkGreen;
+            btnlimpiarbuscador.Cursor = Cursors.Hand;
+            btnlimpiarbuscador.FlatAppearance.BorderColor = Color.Black;
+            btnlimpiarbuscador.FlatStyle = FlatStyle.Flat;
+            btnlimpiarbuscador.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnlimpiarbuscador.ForeColor = Color.White;
+            btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
+            btnlimpiarbuscador.IconColor = Color.White;
+            btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnlimpiarbuscador.IconSize = 23;
+            btnlimpiarbuscador.Location = new Point(1202, 36);
+            btnlimpiarbuscador.Name = "btnlimpiarbuscador";
+            btnlimpiarbuscador.Size = new Size(39, 27);
+            btnlimpiarbuscador.TabIndex = 83;
+            btnlimpiarbuscador.UseVisualStyleBackColor = false;
+            // 
+            // btneliminarproducto
+            // 
+            btneliminarproducto.BackColor = Color.DarkGreen;
+            btneliminarproducto.Cursor = Cursors.Hand;
+            btneliminarproducto.FlatAppearance.BorderColor = Color.Black;
+            btneliminarproducto.FlatStyle = FlatStyle.Flat;
+            btneliminarproducto.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btneliminarproducto.ForeColor = Color.White;
+            btneliminarproducto.IconChar = FontAwesome.Sharp.IconChar.Trash;
+            btneliminarproducto.IconColor = Color.White;
+            btneliminarproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btneliminarproducto.IconSize = 25;
+            btneliminarproducto.Location = new Point(27, 596);
+            btneliminarproducto.Name = "btneliminarproducto";
+            btneliminarproducto.Size = new Size(299, 33);
+            btneliminarproducto.TabIndex = 82;
+            btneliminarproducto.Text = " Eliminar";
+            btneliminarproducto.TextAlign = ContentAlignment.MiddleRight;
+            btneliminarproducto.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btneliminarproducto.UseVisualStyleBackColor = false;
+            btneliminarproducto.Click += btneliminarproducto_Click;
+            // 
+            // btnbuscar
+            // 
+            btnbuscar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnbuscar.BackColor = Color.DarkGreen;
+            btnbuscar.Cursor = Cursors.Hand;
+            btnbuscar.FlatAppearance.BorderColor = Color.Black;
+            btnbuscar.FlatStyle = FlatStyle.Flat;
+            btnbuscar.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnbuscar.ForeColor = Color.White;
+            btnbuscar.IconChar = FontAwesome.Sharp.IconChar.SearchLocation;
+            btnbuscar.IconColor = Color.White;
+            btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnbuscar.IconSize = 22;
+            btnbuscar.Location = new Point(1152, 35);
+            btnbuscar.Name = "btnbuscar";
+            btnbuscar.Size = new Size(39, 28);
+            btnbuscar.TabIndex = 79;
+            btnbuscar.UseVisualStyleBackColor = false;
+            // 
             // txtindice
             // 
-            txtindice.Location = new Point(237, 55);
+            txtindice.Location = new Point(265, 51);
             txtindice.Name = "txtindice";
             txtindice.Size = new Size(35, 27);
-            txtindice.TabIndex = 54;
+            txtindice.TabIndex = 78;
             txtindice.Text = "-1";
             txtindice.Visible = false;
             // 
             // txtbusqueda
             // 
             txtbusqueda.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txtbusqueda.Location = new Point(910, 40);
+            txtbusqueda.Location = new Point(938, 36);
             txtbusqueda.Name = "txtbusqueda";
             txtbusqueda.Size = new Size(200, 27);
-            txtbusqueda.TabIndex = 51;
+            txtbusqueda.TabIndex = 77;
             // 
             // cbbusqueda
             // 
             cbbusqueda.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             cbbusqueda.DropDownStyle = ComboBoxStyle.DropDownList;
             cbbusqueda.FormattingEnabled = true;
-            cbbusqueda.Location = new Point(726, 39);
+            cbbusqueda.Location = new Point(754, 35);
             cbbusqueda.Name = "cbbusqueda";
             cbbusqueda.Size = new Size(172, 28);
-            cbbusqueda.TabIndex = 50;
+            cbbusqueda.TabIndex = 76;
             // 
             // label11
             // 
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label11.AutoSize = true;
             label11.BackColor = Color.White;
-            label11.Location = new Point(638, 42);
+            label11.Location = new Point(666, 38);
             label11.Name = "label11";
             label11.Size = new Size(82, 20);
-            label11.TabIndex = 49;
+            label11.TabIndex = 75;
             label11.Text = "Buscar por:";
             // 
             // txtid
             // 
-            txtid.Location = new Point(278, 55);
+            txtid.Location = new Point(306, 51);
             txtid.Name = "txtid";
             txtid.Size = new Size(35, 27);
-            txtid.TabIndex = 48;
+            txtid.TabIndex = 74;
             txtid.Text = "0";
             txtid.Visible = false;
-            // 
-            // label10
-            // 
-            label10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            label10.BackColor = Color.White;
-            label10.BorderStyle = BorderStyle.FixedSingle;
-            label10.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(366, 22);
-            label10.Name = "label10";
-            label10.Size = new Size(866, 60);
-            label10.TabIndex = 47;
-            label10.Text = "Lista de Productos";
             // 
             // dgvdata
             // 
@@ -144,7 +233,7 @@
             dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvdata.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvdata.Columns.AddRange(new DataGridViewColumn[] { btnSeleccionar, Id, Codigo, Nombre, Descripcion, IdCategoria, Categoria, Stock, PrecioCompra, PrecioVenta, EstadoValor, Estado });
-            dgvdata.Location = new Point(366, 91);
+            dgvdata.Location = new Point(394, 87);
             dgvdata.MultiSelect = false;
             dgvdata.Name = "dgvdata";
             dgvdata.ReadOnly = true;
@@ -159,9 +248,7 @@
             dgvdata.RowHeadersWidth = 51;
             dgvdata.RowTemplate.Height = 28;
             dgvdata.Size = new Size(866, 558);
-            dgvdata.TabIndex = 46;
-            dgvdata.CellContentClick += dgvdata_CellContentClick;
-            dgvdata.CellPainting += dgvdata_CellPainting;
+            dgvdata.TabIndex = 72;
             // 
             // btnSeleccionar
             // 
@@ -267,102 +354,71 @@
             label9.AutoSize = true;
             label9.BackColor = Color.White;
             label9.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(14, 22);
+            label9.Location = new Point(42, 18);
             label9.Name = "label9";
-            label9.Size = new Size(216, 29);
-            label9.TabIndex = 45;
-            label9.Text = "Detalle Producto";
-            // 
-            // cbestado
-            // 
-            cbestado.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbestado.FormattingEnabled = true;
-            cbestado.Location = new Point(14, 351);
-            cbestado.Name = "cbestado";
-            cbestado.Size = new Size(299, 28);
-            cbestado.TabIndex = 42;
-            // 
-            // cbcategoria
-            // 
-            cbcategoria.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbcategoria.FormattingEnabled = true;
-            cbcategoria.Location = new Point(14, 285);
-            cbcategoria.Name = "cbcategoria";
-            cbcategoria.Size = new Size(299, 28);
-            cbcategoria.TabIndex = 41;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.White;
-            label8.Location = new Point(14, 328);
-            label8.Name = "label8";
-            label8.Size = new Size(57, 20);
-            label8.TabIndex = 40;
-            label8.Text = "Estado:";
+            label9.Size = new Size(179, 29);
+            label9.TabIndex = 71;
+            label9.Text = "Detalle Cuota";
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.White;
-            label7.Location = new Point(14, 262);
+            label7.Location = new Point(42, 258);
             label7.Name = "label7";
-            label7.Size = new Size(77, 20);
-            label7.TabIndex = 39;
-            label7.Text = "Categoria:";
+            label7.Size = new Size(53, 20);
+            label7.TabIndex = 67;
+            label7.Text = "Precio:";
             // 
-            // txtdescripcion
+            // txtanio
             // 
-            txtdescripcion.Location = new Point(14, 216);
-            txtdescripcion.Name = "txtdescripcion";
-            txtdescripcion.Size = new Size(299, 27);
-            txtdescripcion.TabIndex = 34;
-            txtdescripcion.KeyPress += txtdescripcion_KeyPress;
+            txtanio.Location = new Point(42, 212);
+            txtanio.Name = "txtanio";
+            txtanio.Size = new Size(275, 27);
+            txtanio.TabIndex = 66;
             // 
-            // txtnombre
+            // txtmes
             // 
-            txtnombre.Location = new Point(14, 153);
-            txtnombre.Name = "txtnombre";
-            txtnombre.Size = new Size(299, 27);
-            txtnombre.TabIndex = 33;
-            txtnombre.KeyPress += txtnombre_KeyPress;
+            txtmes.Location = new Point(42, 149);
+            txtmes.Name = "txtmes";
+            txtmes.Size = new Size(275, 27);
+            txtmes.TabIndex = 65;
             // 
             // txtcodigo
             // 
-            txtcodigo.Location = new Point(14, 91);
+            txtcodigo.Location = new Point(42, 87);
             txtcodigo.Name = "txtcodigo";
-            txtcodigo.Size = new Size(299, 27);
-            txtcodigo.TabIndex = 32;
-            txtcodigo.KeyPress += txtcodigo_KeyPress;
+            txtcodigo.Size = new Size(275, 27);
+            txtcodigo.TabIndex = 64;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.White;
-            label4.Location = new Point(14, 193);
+            label4.Location = new Point(42, 189);
             label4.Name = "label4";
-            label4.Size = new Size(90, 20);
-            label4.TabIndex = 31;
-            label4.Text = "Descripción:";
+            label4.Size = new Size(39, 20);
+            label4.TabIndex = 63;
+            label4.Text = "Año:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.White;
-            label3.Location = new Point(14, 130);
+            label3.Location = new Point(42, 126);
             label3.Name = "label3";
-            label3.Size = new Size(67, 20);
-            label3.TabIndex = 30;
-            label3.Text = "Nombre:";
+            label3.Size = new Size(39, 20);
+            label3.TabIndex = 62;
+            label3.Text = "Mes:";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.White;
-            label2.Location = new Point(14, 68);
+            label2.Location = new Point(42, 64);
             label2.Name = "label2";
             label2.Size = new Size(61, 20);
-            label2.TabIndex = 29;
+            label2.TabIndex = 61;
             label2.Text = "Código:";
             // 
             // label1
@@ -372,120 +428,34 @@
             label1.Dock = DockStyle.Left;
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(341, 694);
-            label1.TabIndex = 27;
+            label1.Size = new Size(341, 641);
+            label1.TabIndex = 60;
             // 
-            // btnbuscar
+            // label10
             // 
-            btnbuscar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnbuscar.BackColor = Color.DarkGreen;
-            btnbuscar.Cursor = Cursors.Hand;
-            btnbuscar.FlatAppearance.BorderColor = Color.Black;
-            btnbuscar.FlatStyle = FlatStyle.Flat;
-            btnbuscar.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnbuscar.ForeColor = Color.White;
-            btnbuscar.IconChar = FontAwesome.Sharp.IconChar.SearchLocation;
-            btnbuscar.IconColor = Color.White;
-            btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnbuscar.IconSize = 22;
-            btnbuscar.Location = new Point(1124, 39);
-            btnbuscar.Name = "btnbuscar";
-            btnbuscar.Size = new Size(39, 28);
-            btnbuscar.TabIndex = 55;
-            btnbuscar.UseVisualStyleBackColor = false;
-            btnbuscar.Click += btnbuscar_Click_1;
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            label10.BackColor = Color.White;
+            label10.BorderStyle = BorderStyle.FixedSingle;
+            label10.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(394, 18);
+            label10.Name = "label10";
+            label10.Size = new Size(866, 60);
+            label10.TabIndex = 73;
+            label10.Text = "Lista de Cuotas";
             // 
-            // btnguardarproducto
+            // txtprecio
             // 
-            btnguardarproducto.BackColor = Color.DarkGreen;
-            btnguardarproducto.Cursor = Cursors.Hand;
-            btnguardarproducto.FlatAppearance.BorderColor = Color.Black;
-            btnguardarproducto.FlatStyle = FlatStyle.Flat;
-            btnguardarproducto.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnguardarproducto.ForeColor = Color.White;
-            btnguardarproducto.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
-            btnguardarproducto.IconColor = Color.White;
-            btnguardarproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnguardarproducto.IconSize = 25;
-            btnguardarproducto.Location = new Point(14, 402);
-            btnguardarproducto.Name = "btnguardarproducto";
-            btnguardarproducto.Size = new Size(299, 33);
-            btnguardarproducto.TabIndex = 57;
-            btnguardarproducto.Text = "Guardar";
-            btnguardarproducto.TextAlign = ContentAlignment.MiddleRight;
-            btnguardarproducto.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnguardarproducto.UseVisualStyleBackColor = false;
-            btnguardarproducto.Click += btnguardar_Click_1;
+            txtprecio.Location = new Point(42, 281);
+            txtprecio.Name = "txtprecio";
+            txtprecio.Size = new Size(275, 27);
+            txtprecio.TabIndex = 84;
             // 
-            // btnlimpiar
-            // 
-            btnlimpiar.BackColor = Color.DarkGreen;
-            btnlimpiar.Cursor = Cursors.Hand;
-            btnlimpiar.FlatAppearance.BorderColor = Color.Black;
-            btnlimpiar.FlatStyle = FlatStyle.Flat;
-            btnlimpiar.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnlimpiar.ForeColor = Color.White;
-            btnlimpiar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
-            btnlimpiar.IconColor = Color.White;
-            btnlimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnlimpiar.IconSize = 25;
-            btnlimpiar.Location = new Point(12, 441);
-            btnlimpiar.Name = "btnlimpiar";
-            btnlimpiar.Size = new Size(299, 33);
-            btnlimpiar.TabIndex = 56;
-            btnlimpiar.Text = "Limpiar";
-            btnlimpiar.TextAlign = ContentAlignment.MiddleRight;
-            btnlimpiar.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnlimpiar.UseVisualStyleBackColor = false;
-            btnlimpiar.Click += btnlimpiar_Click;
-            // 
-            // btnlimpiarbuscador
-            // 
-            btnlimpiarbuscador.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnlimpiarbuscador.BackColor = Color.DarkGreen;
-            btnlimpiarbuscador.Cursor = Cursors.Hand;
-            btnlimpiarbuscador.FlatAppearance.BorderColor = Color.Black;
-            btnlimpiarbuscador.FlatStyle = FlatStyle.Flat;
-            btnlimpiarbuscador.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnlimpiarbuscador.ForeColor = Color.White;
-            btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            btnlimpiarbuscador.IconColor = Color.White;
-            btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnlimpiarbuscador.IconSize = 23;
-            btnlimpiarbuscador.Location = new Point(1174, 40);
-            btnlimpiarbuscador.Name = "btnlimpiarbuscador";
-            btnlimpiarbuscador.Size = new Size(39, 27);
-            btnlimpiarbuscador.TabIndex = 59;
-            btnlimpiarbuscador.UseVisualStyleBackColor = false;
-            btnlimpiarbuscador.Click += btnlimpiarbuscador_Click_1;
-            // 
-            // btneliminarproducto
-            // 
-            btneliminarproducto.BackColor = Color.DarkGreen;
-            btneliminarproducto.Cursor = Cursors.Hand;
-            btneliminarproducto.FlatAppearance.BorderColor = Color.Black;
-            btneliminarproducto.FlatStyle = FlatStyle.Flat;
-            btneliminarproducto.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btneliminarproducto.ForeColor = Color.White;
-            btneliminarproducto.IconChar = FontAwesome.Sharp.IconChar.Trash;
-            btneliminarproducto.IconColor = Color.White;
-            btneliminarproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btneliminarproducto.IconSize = 25;
-            btneliminarproducto.Location = new Point(14, 480);
-            btneliminarproducto.Name = "btneliminarproducto";
-            btneliminarproducto.Size = new Size(299, 33);
-            btneliminarproducto.TabIndex = 58;
-            btneliminarproducto.Text = " Eliminar";
-            btneliminarproducto.TextAlign = ContentAlignment.MiddleRight;
-            btneliminarproducto.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btneliminarproducto.UseVisualStyleBackColor = false;
-            btneliminarproducto.Click += btneliminar_Click_1;
-            // 
-            // frmProducto
+            // frmCuota
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1249, 694);
+            ClientSize = new Size(1288, 641);
+            Controls.Add(txtprecio);
             Controls.Add(btnguardarproducto);
             Controls.Add(btnlimpiar);
             Controls.Add(btnlimpiarbuscador);
@@ -498,52 +468,36 @@
             Controls.Add(txtid);
             Controls.Add(dgvdata);
             Controls.Add(label9);
-            Controls.Add(cbestado);
-            Controls.Add(cbcategoria);
-            Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(txtdescripcion);
-            Controls.Add(txtnombre);
+            Controls.Add(txtanio);
+            Controls.Add(txtmes);
             Controls.Add(txtcodigo);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(label10);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "frmProducto";
-            Text = "frmProducto";
-            Load += frmProducto_Load;
+            Name = "frmCuota";
+            Text = "frmCuota";
+            Load += frmCuota_Load;
             ((System.ComponentModel.ISupportInitialize)dgvdata).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
+
+        private FontAwesome.Sharp.IconButton btnguardarproducto;
+        private FontAwesome.Sharp.IconButton btnlimpiar;
+        private FontAwesome.Sharp.IconButton btnlimpiarbuscador;
+        private FontAwesome.Sharp.IconButton btneliminarproducto;
+        private FontAwesome.Sharp.IconButton btnbuscar;
         private TextBox txtindice;
         private TextBox txtbusqueda;
         private ComboBox cbbusqueda;
         private Label label11;
         private TextBox txtid;
-        private Label label10;
         private DataGridView dgvdata;
-        private Label label9;
-        private ComboBox cbestado;
-        private ComboBox cbcategoria;
-        private Label label8;
-        private Label label7;
-        private TextBox txtdescripcion;
-        private TextBox txtnombre;
-        private TextBox txtcodigo;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
-        private FontAwesome.Sharp.IconButton btnbuscar;
-        private FontAwesome.Sharp.IconButton btnguardarproducto;
-        private FontAwesome.Sharp.IconButton btnlimpiar;
-        private FontAwesome.Sharp.IconButton btnlimpiarbuscador;
-        private FontAwesome.Sharp.IconButton btneliminarproducto;
         private DataGridViewButtonColumn btnSeleccionar;
         private DataGridViewTextBoxColumn Id;
         private DataGridViewTextBoxColumn Codigo;
@@ -556,5 +510,16 @@
         private DataGridViewTextBoxColumn PrecioVenta;
         private DataGridViewTextBoxColumn EstadoValor;
         private DataGridViewTextBoxColumn Estado;
+        private Label label9;
+        private Label label7;
+        private TextBox txtanio;
+        private TextBox txtmes;
+        private TextBox txtcodigo;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private Label label10;
+        private TextBox txtprecio;
     }
 }
