@@ -42,14 +42,6 @@
             label10 = new Label();
             btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
             dgvdata = new DataGridView();
-            btnSeleccionar = new DataGridViewButtonColumn();
-            Id = new DataGridViewTextBoxColumn();
-            Documento = new DataGridViewTextBoxColumn();
-            NombreCompleto = new DataGridViewTextBoxColumn();
-            Correo = new DataGridViewTextBoxColumn();
-            Telefono = new DataGridViewTextBoxColumn();
-            EstadoValor = new DataGridViewTextBoxColumn();
-            Estado = new DataGridViewTextBoxColumn();
             label9 = new Label();
             btneliminarcliente = new FontAwesome.Sharp.IconButton();
             cbestado = new ComboBox();
@@ -63,6 +55,17 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            txtmembresia = new TextBox();
+            label6 = new Label();
+            btnSeleccionar = new DataGridViewButtonColumn();
+            Id = new DataGridViewTextBoxColumn();
+            Documento = new DataGridViewTextBoxColumn();
+            NombreCompleto = new DataGridViewTextBoxColumn();
+            Correo = new DataGridViewTextBoxColumn();
+            Telefono = new DataGridViewTextBoxColumn();
+            Membresia = new DataGridViewTextBoxColumn();
+            EstadoValor = new DataGridViewTextBoxColumn();
+            Estado = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvdata).BeginInit();
             SuspendLayout();
             // 
@@ -145,7 +148,7 @@
             btnguardarcliente.IconColor = Color.White;
             btnguardarcliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnguardarcliente.IconSize = 25;
-            btnguardarcliente.Location = new Point(18, 402);
+            btnguardarcliente.Location = new Point(18, 489);
             btnguardarcliente.Name = "btnguardarcliente";
             btnguardarcliente.Size = new Size(299, 33);
             btnguardarcliente.TabIndex = 43;
@@ -167,7 +170,7 @@
             btnlimpiar.IconColor = Color.White;
             btnlimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnlimpiar.IconSize = 25;
-            btnlimpiar.Location = new Point(18, 446);
+            btnlimpiar.Location = new Point(18, 528);
             btnlimpiar.Name = "btnlimpiar";
             btnlimpiar.Size = new Size(299, 33);
             btnlimpiar.TabIndex = 28;
@@ -223,7 +226,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvdata.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvdata.Columns.AddRange(new DataGridViewColumn[] { btnSeleccionar, Id, Documento, NombreCompleto, Correo, Telefono, EstadoValor, Estado });
+            dgvdata.Columns.AddRange(new DataGridViewColumn[] { btnSeleccionar, Id, Documento, NombreCompleto, Correo, Telefono, Membresia, EstadoValor, Estado });
             dgvdata.Location = new Point(369, 91);
             dgvdata.MultiSelect = false;
             dgvdata.Name = "dgvdata";
@@ -242,72 +245,6 @@
             dgvdata.TabIndex = 46;
             dgvdata.CellContentClick += dgvdata_CellContentClick;
             dgvdata.CellPainting += dgvdata_CellPainting;
-            // 
-            // btnSeleccionar
-            // 
-            btnSeleccionar.HeaderText = "";
-            btnSeleccionar.MinimumWidth = 6;
-            btnSeleccionar.Name = "btnSeleccionar";
-            btnSeleccionar.ReadOnly = true;
-            btnSeleccionar.Width = 30;
-            // 
-            // Id
-            // 
-            Id.HeaderText = "Id";
-            Id.MinimumWidth = 6;
-            Id.Name = "Id";
-            Id.ReadOnly = true;
-            Id.Visible = false;
-            Id.Width = 125;
-            // 
-            // Documento
-            // 
-            Documento.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Documento.HeaderText = "Nro Documento";
-            Documento.MinimumWidth = 6;
-            Documento.Name = "Documento";
-            Documento.ReadOnly = true;
-            // 
-            // NombreCompleto
-            // 
-            NombreCompleto.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            NombreCompleto.HeaderText = "Nombre Completo";
-            NombreCompleto.MinimumWidth = 6;
-            NombreCompleto.Name = "NombreCompleto";
-            NombreCompleto.ReadOnly = true;
-            // 
-            // Correo
-            // 
-            Correo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Correo.HeaderText = "Correo";
-            Correo.MinimumWidth = 6;
-            Correo.Name = "Correo";
-            Correo.ReadOnly = true;
-            // 
-            // Telefono
-            // 
-            Telefono.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Telefono.HeaderText = "Telefono";
-            Telefono.MinimumWidth = 6;
-            Telefono.Name = "Telefono";
-            Telefono.ReadOnly = true;
-            // 
-            // EstadoValor
-            // 
-            EstadoValor.HeaderText = "Estado Valor";
-            EstadoValor.MinimumWidth = 6;
-            EstadoValor.Name = "EstadoValor";
-            EstadoValor.ReadOnly = true;
-            EstadoValor.Visible = false;
-            EstadoValor.Width = 125;
-            // 
-            // Estado
-            // 
-            Estado.HeaderText = "Estado";
-            Estado.MinimumWidth = 6;
-            Estado.Name = "Estado";
-            Estado.ReadOnly = true;
-            Estado.Width = 157;
             // 
             // label9
             // 
@@ -332,7 +269,7 @@
             btneliminarcliente.IconColor = Color.White;
             btneliminarcliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btneliminarcliente.IconSize = 25;
-            btneliminarcliente.Location = new Point(18, 491);
+            btneliminarcliente.Location = new Point(18, 567);
             btneliminarcliente.Name = "btneliminarcliente";
             btneliminarcliente.Size = new Size(299, 33);
             btneliminarcliente.TabIndex = 44;
@@ -346,7 +283,7 @@
             // 
             cbestado.DropDownStyle = ComboBoxStyle.DropDownList;
             cbestado.FormattingEnabled = true;
-            cbestado.Location = new Point(18, 349);
+            cbestado.Location = new Point(18, 402);
             cbestado.Name = "cbestado";
             cbestado.Size = new Size(299, 28);
             cbestado.TabIndex = 42;
@@ -355,7 +292,7 @@
             // 
             label8.AutoSize = true;
             label8.BackColor = Color.White;
-            label8.Location = new Point(18, 326);
+            label8.Location = new Point(18, 379);
             label8.Name = "label8";
             label8.Size = new Size(57, 20);
             label8.TabIndex = 40;
@@ -443,11 +380,104 @@
             label1.Size = new Size(341, 694);
             label1.TabIndex = 27;
             // 
+            // txtmembresia
+            // 
+            txtmembresia.Location = new Point(18, 346);
+            txtmembresia.Name = "txtmembresia";
+            txtmembresia.Size = new Size(299, 27);
+            txtmembresia.TabIndex = 56;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.White;
+            label6.Location = new Point(18, 323);
+            label6.Name = "label6";
+            label6.Size = new Size(86, 20);
+            label6.TabIndex = 55;
+            label6.Text = "Membresia:";
+            // 
+            // btnSeleccionar
+            // 
+            btnSeleccionar.HeaderText = "";
+            btnSeleccionar.MinimumWidth = 6;
+            btnSeleccionar.Name = "btnSeleccionar";
+            btnSeleccionar.ReadOnly = true;
+            btnSeleccionar.Width = 30;
+            // 
+            // Id
+            // 
+            Id.HeaderText = "Id";
+            Id.MinimumWidth = 6;
+            Id.Name = "Id";
+            Id.ReadOnly = true;
+            Id.Visible = false;
+            Id.Width = 125;
+            // 
+            // Documento
+            // 
+            Documento.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Documento.HeaderText = "Nro Documento";
+            Documento.MinimumWidth = 6;
+            Documento.Name = "Documento";
+            Documento.ReadOnly = true;
+            // 
+            // NombreCompleto
+            // 
+            NombreCompleto.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            NombreCompleto.HeaderText = "Nombre Completo";
+            NombreCompleto.MinimumWidth = 6;
+            NombreCompleto.Name = "NombreCompleto";
+            NombreCompleto.ReadOnly = true;
+            // 
+            // Correo
+            // 
+            Correo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Correo.HeaderText = "Correo";
+            Correo.MinimumWidth = 6;
+            Correo.Name = "Correo";
+            Correo.ReadOnly = true;
+            // 
+            // Telefono
+            // 
+            Telefono.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Telefono.HeaderText = "Telefono";
+            Telefono.MinimumWidth = 6;
+            Telefono.Name = "Telefono";
+            Telefono.ReadOnly = true;
+            // 
+            // Membresia
+            // 
+            Membresia.HeaderText = "Membresia";
+            Membresia.MinimumWidth = 6;
+            Membresia.Name = "Membresia";
+            Membresia.ReadOnly = true;
+            Membresia.Width = 125;
+            // 
+            // EstadoValor
+            // 
+            EstadoValor.HeaderText = "Estado Valor";
+            EstadoValor.MinimumWidth = 6;
+            EstadoValor.Name = "EstadoValor";
+            EstadoValor.ReadOnly = true;
+            EstadoValor.Visible = false;
+            EstadoValor.Width = 125;
+            // 
+            // Estado
+            // 
+            Estado.HeaderText = "Estado";
+            Estado.MinimumWidth = 6;
+            Estado.Name = "Estado";
+            Estado.ReadOnly = true;
+            Estado.Width = 157;
+            // 
             // frmCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1249, 694);
+            Controls.Add(txtmembresia);
+            Controls.Add(label6);
             Controls.Add(txtindice);
             Controls.Add(btnbuscar);
             Controls.Add(txtbusqueda);
@@ -507,12 +537,15 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private TextBox txtmembresia;
+        private Label label6;
         private DataGridViewButtonColumn btnSeleccionar;
         private DataGridViewTextBoxColumn Id;
         private DataGridViewTextBoxColumn Documento;
         private DataGridViewTextBoxColumn NombreCompleto;
         private DataGridViewTextBoxColumn Correo;
         private DataGridViewTextBoxColumn Telefono;
+        private DataGridViewTextBoxColumn Membresia;
         private DataGridViewTextBoxColumn EstadoValor;
         private DataGridViewTextBoxColumn Estado;
     }

@@ -35,10 +35,10 @@ namespace CapaPresentacion
             cbotipodocumento.ValueMember = "Valor";
             cbotipodocumento.SelectedIndex = 0;
 
+            cbimpuesto.Items.Add(new OpcionCombo() { Valor = "ImpuestoSinDescuento", Texto = "Final" });
             cbimpuesto.Items.Add(new OpcionCombo() { Valor = "Reducido", Texto = "Membresia" });
             cbimpuesto.Items.Add(new OpcionCombo() { Valor = "Estandar", Texto = "Comercial" });
             cbimpuesto.Items.Add(new OpcionCombo() { Valor = "Superior", Texto = "Efectivo" });
-            cbimpuesto.Items.Add(new OpcionCombo() { Valor = "ImpuestoSinDescuento", Texto = "Final" }); 
 
             cbimpuesto.DisplayMember = "Texto";
             cbimpuesto.ValueMember = "Valor";

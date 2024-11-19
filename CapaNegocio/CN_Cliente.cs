@@ -29,24 +29,29 @@ namespace CapaNegocio
         {
             Mensaje = string.Empty;
 
-            if (obj.Documento == "")
+            if (string.IsNullOrWhiteSpace(obj.Documento))
             {
                 Mensaje += "Debe introducir el número de documento del Cliente\n";
             }
 
-            if (obj.NombreCompleto == "")
+            if (string.IsNullOrWhiteSpace(obj.NombreCompleto))
             {
                 Mensaje += "Debe introducir el Nombre Completo del Cliente\n";
             }
 
-            if (obj.Correo == "")
+            if (string.IsNullOrWhiteSpace(obj.Correo))
             {
                 Mensaje += "Debe introducir el correo del Cliente\n";
             }
 
-            if (obj.Telefono == "")
+            if (string.IsNullOrWhiteSpace(obj.Telefono))
             {
-                Mensaje += "Debe introducir el telefono del Cliente\n";
+                Mensaje += "Debe introducir el teléfono del Cliente\n";
+            }
+
+            if (string.IsNullOrWhiteSpace(obj.Membresia))
+            {
+                Mensaje += "Debe especificar el tipo de membresía del Cliente\n";
             }
 
             if (Mensaje != string.Empty)
@@ -64,31 +69,35 @@ namespace CapaNegocio
                     throw new Exception(ex.Message);
                 }
             }
-
         }
 
         public bool Editar(Cliente obj, out string Mensaje)
         {
             Mensaje = string.Empty;
 
-            if (obj.Documento == "")
+            if (string.IsNullOrWhiteSpace(obj.Documento))
             {
                 Mensaje += "Debe introducir el número de documento del Cliente\n";
             }
 
-            if (obj.NombreCompleto == "")
+            if (string.IsNullOrWhiteSpace(obj.NombreCompleto))
             {
                 Mensaje += "Debe introducir el Nombre Completo del Cliente\n";
             }
 
-            if (obj.Correo == "")
+            if (string.IsNullOrWhiteSpace(obj.Correo))
             {
                 Mensaje += "Debe introducir el correo del Cliente\n";
             }
 
-            if (obj.Telefono == "")
+            if (string.IsNullOrWhiteSpace(obj.Telefono))
             {
-                Mensaje += "Debe introducir el telefono del Cliente\n";
+                Mensaje += "Debe introducir el teléfono del Cliente\n";
+            }
+
+            if (string.IsNullOrWhiteSpace(obj.Membresia))
+            {
+                Mensaje += "Debe especificar el tipo de membresía del Cliente\n";
             }
 
             if (Mensaje != string.Empty)

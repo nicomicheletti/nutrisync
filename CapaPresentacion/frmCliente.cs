@@ -27,16 +27,17 @@ namespace CapaPresentacion
 
         private void frmCliente_Load(object sender, EventArgs e)
         {
+            // Configuración del ComboBox estado
             cbestado.Items.Add(new OpcionCombo() { Valor = 1, Texto = "Activo" });
             cbestado.Items.Add(new OpcionCombo() { Valor = 0, Texto = "No Activo" });
-
             cbestado.DisplayMember = "Texto";
             cbestado.ValueMember = "Valor";
             cbestado.SelectedIndex = 0;
 
+            // Agregar columnas de búsqueda
             foreach (DataGridViewColumn columna in dgvdata.Columns)
             {
-                if (columna.Visible == true && columna.Name != "btnSeleccionar")
+                if (columna.Visible && columna.Name != "btnSeleccionar")
                 {
                     cbbusqueda.Items.Add(new OpcionCombo() { Valor = columna.Name, Texto = columna.HeaderText });
                 }
@@ -46,33 +47,27 @@ namespace CapaPresentacion
             cbbusqueda.ValueMember = "Valor";
             cbbusqueda.SelectedIndex = 0;
 
-            //MOSTRAR TODOS LOS CLIENTES
+            // Cargar clientes
             List<Cliente> lista = new CN_Cliente().Listar();
 
             foreach (Cliente item in lista)
             {
-                dgvdata.Rows.Add(new object[] {"", item.IdCliente, item.Documento, item.NombreCompleto,
-                item.Correo, item.Telefono,
-                item.Estado == true ? 1 : 0,
-                item.Estado == true ? "Activo" : "No Activo"});
+                dgvdata.Rows.Add(new object[]
+                {
+            "", item.IdCliente, item.Documento, item.NombreCompleto,
+            item.Correo, item.Telefono, item.Membresia,
+            item.Estado ? 1 : 0,
+            item.Estado ? "Activo" : "No Activo"
+                });
             }
 
-            //MOSTRAR LOS BOTONES SEGUN EL PERMISO
+            // Configurar permisos de botones
             List<Permiso> listaPermisos = _usuarioActual.GetPermisos();
-            List<Button> listaBotones = new List<Button> { btnguardarcliente, btneliminarcliente};
+            List<Button> listaBotones = new List<Button> { btnguardarcliente, btneliminarcliente };
 
             foreach (Button boton in listaBotones)
             {
-                bool encontrado = listaPermisos.Any(p => p.NombreMenu == boton.Name);
-
-                if (encontrado)
-                {
-                    boton.Visible = true;
-                }
-                else
-                {
-                    boton.Visible = false;
-                }
+                boton.Visible = listaPermisos.Any(p => p.NombreMenu == boton.Name);
             }
 
         }
@@ -89,19 +84,23 @@ namespace CapaPresentacion
                     NombreCompleto = txtnombrecompleto.Text,
                     Correo = txtcorreo.Text,
                     Telefono = txttelefono.Text,
-                    Estado = Convert.ToInt32(((OpcionCombo)cbestado.SelectedItem).Valor) == 1 ? true : false
+                    Membresia = txtmembresia.Text, // Captura de Membresía
+                    Estado = Convert.ToInt32(((OpcionCombo)cbestado.SelectedItem).Valor) == 1
                 };
 
-                if (objCliente.IdCliente == 0)
+                if (objCliente.IdCliente == 0) // Registrar
                 {
                     int idClientegenerado = new CN_Cliente().Registrar(objCliente, out mensaje);
 
                     if (idClientegenerado != 0)
                     {
-                        dgvdata.Rows.Add(new object[] {"", idClientegenerado, txtdocumento.Text, txtnombrecompleto.Text,
-                    txtcorreo.Text, txttelefono.Text,
+                        dgvdata.Rows.Add(new object[]
+                        {
+                    "", idClientegenerado, txtdocumento.Text, txtnombrecompleto.Text,
+                    txtcorreo.Text, txttelefono.Text, txtmembresia.Text,
                     ((OpcionCombo)cbestado.SelectedItem).Valor.ToString(),
-                    ((OpcionCombo)cbestado.SelectedItem).Texto.ToString(),});
+                    ((OpcionCombo)cbestado.SelectedItem).Texto.ToString()
+                        });
 
                         Limpiar();
                     }
@@ -110,7 +109,7 @@ namespace CapaPresentacion
                         MessageBox.Show(mensaje);
                     }
                 }
-                else
+                else // Editar
                 {
                     bool resultado = new CN_Cliente().Editar(objCliente, out mensaje);
 
@@ -122,6 +121,7 @@ namespace CapaPresentacion
                         row.Cells["NombreCompleto"].Value = txtnombrecompleto.Text;
                         row.Cells["Correo"].Value = txtcorreo.Text;
                         row.Cells["Telefono"].Value = txttelefono.Text;
+                        row.Cells["Membresia"].Value = txtmembresia.Text; // Actualiza Membresía
                         row.Cells["EstadoValor"].Value = ((OpcionCombo)cbestado.SelectedItem).Valor.ToString();
                         row.Cells["Estado"].Value = ((OpcionCombo)cbestado.SelectedItem).Texto.ToString();
 

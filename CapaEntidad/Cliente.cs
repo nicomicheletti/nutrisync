@@ -9,7 +9,7 @@ namespace CapaEntidad
     public class Cliente
     {
         //
-        //ATRIBUTOS
+        // ATRIBUTOS
         //
         private int idCliente;
         private string documento;
@@ -18,9 +18,10 @@ namespace CapaEntidad
         private string telefono;
         private bool estado;
         private string fechaRegistro;
+        private string membresia;
 
         //
-        //PROPIEDADES
+        // PROPIEDADES
         //
         public int IdCliente { get; set; }
         public string Documento { get; set; }
@@ -29,5 +30,6 @@ namespace CapaEntidad
         public string Telefono { get; set; }
         public bool Estado { get; set; }
         public string FechaRegistro { get; set; }
+        public string Membresia { get; set; } // Nuevo campo
     }
 }

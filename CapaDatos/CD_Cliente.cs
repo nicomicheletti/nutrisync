@@ -20,7 +20,7 @@ namespace CapaDatos
                 try
                 {
                     StringBuilder query = new StringBuilder();
-                    query.AppendLine("select IdCliente,Documento,NombreCompleto,Correo,Telefono,Estado from CLIENTE");
+                    query.AppendLine("select IdCliente, Documento, NombreCompleto, Correo, Telefono, Estado, Membresia from CLIENTE");
 
                     SqlCommand cmd = new SqlCommand(query.ToString(), oconexion);
                     cmd.CommandType = CommandType.Text;
@@ -39,21 +39,17 @@ namespace CapaDatos
                                 Correo = dr["Correo"].ToString(),
                                 Telefono = dr["Telefono"].ToString(),
                                 Estado = Convert.ToBoolean(dr["Estado"]),
+                                Membresia = dr["Membresia"].ToString()
                             });
-
                         }
-
                     }
-
                 }
                 catch (Exception ex)
                 {
                     lista = new List<Cliente>();
                 }
-
             }
             return lista;
-
         }
 
         public int Registrar(Cliente obj, out string Mensaje)
@@ -67,14 +63,15 @@ namespace CapaDatos
                 {
                     SqlCommand cmd = new SqlCommand("SP_REGISTRARCLIENTE", oconexion);
 
-                    //Parametros de entrada
+                    // Parámetros de entrada
                     cmd.Parameters.AddWithValue("Documento", obj.Documento);
                     cmd.Parameters.AddWithValue("NombreCompleto", obj.NombreCompleto);
                     cmd.Parameters.AddWithValue("Correo", obj.Correo);
                     cmd.Parameters.AddWithValue("Telefono", obj.Telefono);
                     cmd.Parameters.AddWithValue("Estado", obj.Estado);
+                    cmd.Parameters.AddWithValue("Membresia", obj.Membresia);
 
-                    //Parametros de salida
+                    // Parámetros de salida
                     cmd.Parameters.Add("Resultado", SqlDbType.Int).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("Mensaje", SqlDbType.NVarChar, 500).Direction = ParameterDirection.Output;
 
@@ -106,18 +103,18 @@ namespace CapaDatos
             {
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cadena))
                 {
-
                     SqlCommand cmd = new SqlCommand("SP_MODIFICARCLIENTE", oconexion);
 
-                    //Parametros de entrada
+                    // Parámetros de entrada
                     cmd.Parameters.AddWithValue("IdCliente", obj.IdCliente);
                     cmd.Parameters.AddWithValue("Documento", obj.Documento);
                     cmd.Parameters.AddWithValue("NombreCompleto", obj.NombreCompleto);
                     cmd.Parameters.AddWithValue("Correo", obj.Correo);
                     cmd.Parameters.AddWithValue("Telefono", obj.Telefono);
                     cmd.Parameters.AddWithValue("Estado", obj.Estado);
+                    cmd.Parameters.AddWithValue("Membresia", obj.Membresia);
 
-                    //Parametros de salida
+                    // Parámetros de salida
                     cmd.Parameters.Add("Resultado", SqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("Mensaje", SqlDbType.NVarChar, 500).Direction = ParameterDirection.Output;
 
@@ -148,8 +145,7 @@ namespace CapaDatos
             {
                 using (SqlConnection oconexion = new SqlConnection(Conexion.cadena))
                 {
-
-                    SqlCommand cmd = new SqlCommand("delete from cliente where IdCliente = @id", oconexion);
+                    SqlCommand cmd = new SqlCommand("delete from CLIENTE where IdCliente = @id", oconexion);
                     cmd.Parameters.AddWithValue("@Id", obj.IdCliente);
                     cmd.CommandType = CommandType.Text;
                     oconexion.Open();
