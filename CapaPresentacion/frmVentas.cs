@@ -12,6 +12,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using System.Data.SqlClient;
+using CapaDatos;
 
 namespace CapaPresentacion
 {
@@ -28,6 +30,11 @@ namespace CapaPresentacion
 
         private void frmVentas_Load(object sender, EventArgs e)
         {
+            if (!string.IsNullOrWhiteSpace(txtdoccliente.Text))
+            {
+                txtdoccliente_TextChanged(null, null);
+            }
+
             cbotipodocumento.Items.Add(new OpcionCombo() { Valor = "Boleta", Texto = "Boleta" });
             cbotipodocumento.Items.Add(new OpcionCombo() { Valor = "Factura", Texto = "Factura" });
 
@@ -87,7 +94,7 @@ namespace CapaPresentacion
         {
             public decimal CalcularImpuesto(decimal total)
             {
-                return total; 
+                return total;
             }
         }
 
@@ -525,5 +532,38 @@ namespace CapaPresentacion
                 EstablecerImpuestos(new ImpuestoSinDescuento());
             }
         }
+
+        private void txtdoccliente_TextChanged(object sender, EventArgs e)
+        {
+            string documentoCliente = txtdoccliente.Text;
+
+            if (!string.IsNullOrWhiteSpace(documentoCliente))
+            {
+                try
+                {
+                    // Crear una instancia de CD_Venta para obtener la membresía
+                    CD_Venta ventaDatos = new CD_Venta();
+                    string membresia = ventaDatos.ObtenerMembresiaCliente(documentoCliente);
+
+                    if (membresia == "SOCIO")
+                    {
+                        // Seleccionar "Membresia" en el ComboBox
+                        foreach (OpcionCombo item in cbimpuesto.Items)
+                        {
+                            if (item.Texto == "Membresia")
+                            {
+                                cbimpuesto.SelectedItem = item;
+                                break;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al consultar la membresía: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
     }
 }

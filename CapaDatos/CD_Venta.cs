@@ -11,6 +11,35 @@ namespace CapaDatos
 {
     public class CD_Venta
     {
+
+        public string ObtenerMembresiaCliente(string documento)
+        {
+            string membresia = string.Empty;
+
+            using (SqlConnection connection = new SqlConnection(Conexion.cadena))
+            {
+                string query = "SELECT Membresia FROM CLIENTE WHERE Documento = @Documento";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Documento", documento);
+
+                try
+                {
+                    connection.Open();
+                    var resultado = command.ExecuteScalar();
+                    if (resultado != null)
+                    {
+                        membresia = resultado.ToString();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al consultar la membresía del cliente: " + ex.Message);
+                }
+            }
+
+            return membresia;
+        }
+
         public List<Venta> Listar()
         {
             List<Venta> lista = new List<Venta>();

@@ -370,6 +370,7 @@
             txtdoccliente.ReadOnly = true;
             txtdoccliente.Size = new Size(230, 27);
             txtdoccliente.TabIndex = 0;
+            txtdoccliente.TextChanged += txtdoccliente_TextChanged;
             // 
             // txtprecio
             // 
