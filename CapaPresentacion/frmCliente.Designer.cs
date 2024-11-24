@@ -42,6 +42,15 @@
             label10 = new Label();
             btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
             dgvdata = new DataGridView();
+            btnSeleccionar = new DataGridViewButtonColumn();
+            Id = new DataGridViewTextBoxColumn();
+            Documento = new DataGridViewTextBoxColumn();
+            NombreCompleto = new DataGridViewTextBoxColumn();
+            Correo = new DataGridViewTextBoxColumn();
+            Telefono = new DataGridViewTextBoxColumn();
+            Membresia = new DataGridViewTextBoxColumn();
+            EstadoValor = new DataGridViewTextBoxColumn();
+            Estado = new DataGridViewTextBoxColumn();
             label9 = new Label();
             btneliminarcliente = new FontAwesome.Sharp.IconButton();
             cbestado = new ComboBox();
@@ -57,15 +66,6 @@
             label1 = new Label();
             txtmembresia = new TextBox();
             label6 = new Label();
-            btnSeleccionar = new DataGridViewButtonColumn();
-            Id = new DataGridViewTextBoxColumn();
-            Documento = new DataGridViewTextBoxColumn();
-            NombreCompleto = new DataGridViewTextBoxColumn();
-            Correo = new DataGridViewTextBoxColumn();
-            Telefono = new DataGridViewTextBoxColumn();
-            Membresia = new DataGridViewTextBoxColumn();
-            EstadoValor = new DataGridViewTextBoxColumn();
-            Estado = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvdata).BeginInit();
             SuspendLayout();
             // 
@@ -246,6 +246,80 @@
             dgvdata.CellContentClick += dgvdata_CellContentClick;
             dgvdata.CellPainting += dgvdata_CellPainting;
             // 
+            // btnSeleccionar
+            // 
+            btnSeleccionar.HeaderText = "";
+            btnSeleccionar.MinimumWidth = 6;
+            btnSeleccionar.Name = "btnSeleccionar";
+            btnSeleccionar.ReadOnly = true;
+            btnSeleccionar.Width = 30;
+            // 
+            // Id
+            // 
+            Id.HeaderText = "Id";
+            Id.MinimumWidth = 6;
+            Id.Name = "Id";
+            Id.ReadOnly = true;
+            Id.Visible = false;
+            Id.Width = 125;
+            // 
+            // Documento
+            // 
+            Documento.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Documento.HeaderText = "Nro Documento";
+            Documento.MinimumWidth = 6;
+            Documento.Name = "Documento";
+            Documento.ReadOnly = true;
+            // 
+            // NombreCompleto
+            // 
+            NombreCompleto.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            NombreCompleto.HeaderText = "Nombre Completo";
+            NombreCompleto.MinimumWidth = 6;
+            NombreCompleto.Name = "NombreCompleto";
+            NombreCompleto.ReadOnly = true;
+            // 
+            // Correo
+            // 
+            Correo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Correo.HeaderText = "Correo";
+            Correo.MinimumWidth = 6;
+            Correo.Name = "Correo";
+            Correo.ReadOnly = true;
+            // 
+            // Telefono
+            // 
+            Telefono.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Telefono.HeaderText = "Telefono";
+            Telefono.MinimumWidth = 6;
+            Telefono.Name = "Telefono";
+            Telefono.ReadOnly = true;
+            // 
+            // Membresia
+            // 
+            Membresia.HeaderText = "Membresia";
+            Membresia.MinimumWidth = 6;
+            Membresia.Name = "Membresia";
+            Membresia.ReadOnly = true;
+            Membresia.Width = 125;
+            // 
+            // EstadoValor
+            // 
+            EstadoValor.HeaderText = "Estado Valor";
+            EstadoValor.MinimumWidth = 6;
+            EstadoValor.Name = "EstadoValor";
+            EstadoValor.ReadOnly = true;
+            EstadoValor.Visible = false;
+            EstadoValor.Width = 125;
+            // 
+            // Estado
+            // 
+            Estado.HeaderText = "Estado";
+            Estado.MinimumWidth = 6;
+            Estado.Name = "Estado";
+            Estado.ReadOnly = true;
+            Estado.Width = 157;
+            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -384,6 +458,7 @@
             // 
             txtmembresia.Location = new Point(18, 346);
             txtmembresia.Name = "txtmembresia";
+            txtmembresia.ReadOnly = true;
             txtmembresia.Size = new Size(299, 27);
             txtmembresia.TabIndex = 56;
             // 
@@ -396,80 +471,6 @@
             label6.Size = new Size(86, 20);
             label6.TabIndex = 55;
             label6.Text = "Membresia:";
-            // 
-            // btnSeleccionar
-            // 
-            btnSeleccionar.HeaderText = "";
-            btnSeleccionar.MinimumWidth = 6;
-            btnSeleccionar.Name = "btnSeleccionar";
-            btnSeleccionar.ReadOnly = true;
-            btnSeleccionar.Width = 30;
-            // 
-            // Id
-            // 
-            Id.HeaderText = "Id";
-            Id.MinimumWidth = 6;
-            Id.Name = "Id";
-            Id.ReadOnly = true;
-            Id.Visible = false;
-            Id.Width = 125;
-            // 
-            // Documento
-            // 
-            Documento.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Documento.HeaderText = "Nro Documento";
-            Documento.MinimumWidth = 6;
-            Documento.Name = "Documento";
-            Documento.ReadOnly = true;
-            // 
-            // NombreCompleto
-            // 
-            NombreCompleto.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            NombreCompleto.HeaderText = "Nombre Completo";
-            NombreCompleto.MinimumWidth = 6;
-            NombreCompleto.Name = "NombreCompleto";
-            NombreCompleto.ReadOnly = true;
-            // 
-            // Correo
-            // 
-            Correo.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Correo.HeaderText = "Correo";
-            Correo.MinimumWidth = 6;
-            Correo.Name = "Correo";
-            Correo.ReadOnly = true;
-            // 
-            // Telefono
-            // 
-            Telefono.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Telefono.HeaderText = "Telefono";
-            Telefono.MinimumWidth = 6;
-            Telefono.Name = "Telefono";
-            Telefono.ReadOnly = true;
-            // 
-            // Membresia
-            // 
-            Membresia.HeaderText = "Membresia";
-            Membresia.MinimumWidth = 6;
-            Membresia.Name = "Membresia";
-            Membresia.ReadOnly = true;
-            Membresia.Width = 125;
-            // 
-            // EstadoValor
-            // 
-            EstadoValor.HeaderText = "Estado Valor";
-            EstadoValor.MinimumWidth = 6;
-            EstadoValor.Name = "EstadoValor";
-            EstadoValor.ReadOnly = true;
-            EstadoValor.Visible = false;
-            EstadoValor.Width = 125;
-            // 
-            // Estado
-            // 
-            Estado.HeaderText = "Estado";
-            Estado.MinimumWidth = 6;
-            Estado.Name = "Estado";
-            Estado.ReadOnly = true;
-            Estado.Width = 157;
             // 
             // frmCliente
             // 

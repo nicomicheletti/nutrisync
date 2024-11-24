@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,36 +23,44 @@
       "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4848D2FC-2808-4DD3-AD65-72D7CA622BA5}|CapaDatos\\CapaDatos.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4848D2FC-2808-4DD3-AD65-72D7CA622BA5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\frmcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4848D2FC-2808-4DD3-AD65-72D7CA622BA5}|CapaDatos\\CapaDatos.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4848D2FC-2808-4DD3-AD65-72D7CA622BA5}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\capapresentacion\\frmcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB64503B-EF5F-4B20-8983-AF4861265258}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ezequiel\\desktop\\diploma\\nutrisync\\capapresentacion\\frmcuota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "frmCuota.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCuota.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmCuota.cs",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "frmCuota.cs",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCuota.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmCuota.cs",
@@ -87,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmProducto.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmProducto.cs",
@@ -95,11 +111,12 @@
               "RelativeToolTip": "CapaPresentacion\\frmProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T22:25:56.117Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "frmProducto.cs",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmProducto.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmProducto.cs",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmPago.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmPago.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmPago.cs",
@@ -125,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmPago.cs",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmPago.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmPago.cs",
               "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmPago.cs",
               "RelativeToolTip": "CapaPresentacion\\frmPago.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T03:35:38.568Z",
               "IsPinned": true,
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Inicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\Inicio.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\Inicio.cs",
@@ -147,17 +164,18 @@
               "RelativeToolTip": "CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T04:33:46.753Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "frmCliente.cs",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCliente.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmCliente.cs",
               "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCliente.cs",
               "RelativeToolTip": "CapaPresentacion\\frmCliente.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAYwL8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwFYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T23:21:22.342Z",
               "IsPinned": true,
@@ -165,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "frmCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCliente.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmCliente.cs",
@@ -173,35 +191,87 @@
               "RelativeToolTip": "CapaPresentacion\\frmCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T22:17:27.871Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "frmProveedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmProveedor.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedor.cs",
+              "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmProveedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmProveedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:32:37.305Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmCompras.cs",
+              "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCompras.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmCompras.cs",
+              "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCompras.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmCompras.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAASwKwBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:22:27.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmCompras.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCompras.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmCompras.cs",
+              "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmCompras.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmCompras.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:22:20.756Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmVentas.cs",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmVentas.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmVentas.cs",
               "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmVentas.cs",
               "RelativeToolTip": "CapaPresentacion\\frmVentas.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwG4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T03:14:01.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "frmProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmProveedor.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedor.cs",
+              "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmProveedor.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmProveedor.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAADgvwABAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:32:42.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmVentas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmVentas.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmVentas.cs",
               "ToolTip": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaPresentacion\\frmVentas.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaPresentacion\\frmVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:13:54.926Z"
+              "WhenOpened": "2024-11-19T03:13:54.926Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "CD_Venta.cs",
               "DocumentMoniker": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaDatos\\CD_Venta.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Venta.cs",

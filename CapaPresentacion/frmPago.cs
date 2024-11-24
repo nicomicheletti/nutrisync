@@ -11,6 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CapaPresentacion.Modales;
+using CapaPresentacion.Utilidades;
+
 namespace CapaPresentacion
 {
     public partial class frmPago : Form
@@ -68,10 +71,12 @@ namespace CapaPresentacion
         }
         public void MostrarSocios()
         {
+            /*
             CD_Pago obj = new CD_Pago();
             cbcliente.DataSource = obj.llenar_socios();
             cbcliente.DisplayMember = "Documento";
             cbcliente.ValueMember = "IdCliente";
+            */
         }
 
         private void btnguardarproducto_Click(object sender, EventArgs e)
@@ -80,7 +85,7 @@ namespace CapaPresentacion
             {
                 try
                 {
-                    cdP.Insert(Convert.ToInt32(cbcliente.SelectedValue), Convert.ToInt32(cbcuota.SelectedValue), Convert.ToDateTime(txtfecha.Text));
+                    cdP.Insert(Convert.ToInt32(txtCliente.Text), Convert.ToInt32(cbcuota.SelectedValue), Convert.ToDateTime(txtfecha.Text));
                     MessageBox.Show("Se agrego Pago con exito!");
                     MostrarDatos();
                 }
@@ -93,7 +98,7 @@ namespace CapaPresentacion
             {
                 try
                 {
-                    cdP.Update(Convert.ToInt32(id), Convert.ToInt32(cbcliente.SelectedValue), Convert.ToInt32(cbcuota.SelectedValue), Convert.ToDateTime(txtfecha.Text));
+                    cdP.Update(Convert.ToInt32(id), Convert.ToInt32(txtCliente.Text), Convert.ToInt32(cbcuota.SelectedValue), Convert.ToDateTime(txtfecha.Text));
                     MessageBox.Show("Datos modificados con exito!");
                     MostrarDatos();
                     editar = false;
@@ -125,6 +130,23 @@ namespace CapaPresentacion
             txtcodigo.Clear();
             txtfecha.Clear();
             txtprecio.Clear();
+        }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            using (var modal = new MD_Cliente())
+            {
+                var result = modal.ShowDialog();
+
+                if (result == DialogResult.OK)
+                {
+                    txtCliente.Text = modal._Cliente.Documento;
+                }
+                else
+                {
+                    
+                }
+            }
         }
     }
 }

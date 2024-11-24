@@ -32,18 +32,14 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             btnguardarpago = new FontAwesome.Sharp.IconButton();
             btnlimpiar = new FontAwesome.Sharp.IconButton();
-            btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
             btneliminarpago = new FontAwesome.Sharp.IconButton();
             btnbuscar = new FontAwesome.Sharp.IconButton();
             txtindice = new TextBox();
-            txtbusqueda = new TextBox();
-            cbbusqueda = new ComboBox();
             label11 = new Label();
             txtid = new TextBox();
             dgvdata = new DataGridView();
             label9 = new Label();
             cbcuota = new ComboBox();
-            cbcliente = new ComboBox();
             label8 = new Label();
             label7 = new Label();
             txtprecio = new TextBox();
@@ -54,6 +50,7 @@
             label2 = new Label();
             label1 = new Label();
             label10 = new Label();
+            txtCliente = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvdata).BeginInit();
             SuspendLayout();
             // 
@@ -69,7 +66,7 @@
             btnguardarpago.IconColor = Color.White;
             btnguardarpago.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnguardarpago.IconSize = 25;
-            btnguardarpago.Location = new Point(26, 393);
+            btnguardarpago.Location = new Point(26, 457);
             btnguardarpago.Name = "btnguardarpago";
             btnguardarpago.Size = new Size(299, 33);
             btnguardarpago.TabIndex = 81;
@@ -91,7 +88,7 @@
             btnlimpiar.IconColor = Color.White;
             btnlimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnlimpiar.IconSize = 25;
-            btnlimpiar.Location = new Point(26, 432);
+            btnlimpiar.Location = new Point(26, 496);
             btnlimpiar.Name = "btnlimpiar";
             btnlimpiar.Size = new Size(299, 33);
             btnlimpiar.TabIndex = 80;
@@ -100,25 +97,6 @@
             btnlimpiar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnlimpiar.UseVisualStyleBackColor = false;
             btnlimpiar.Click += btnlimpiar_Click;
-            // 
-            // btnlimpiarbuscador
-            // 
-            btnlimpiarbuscador.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnlimpiarbuscador.BackColor = Color.DarkGreen;
-            btnlimpiarbuscador.Cursor = Cursors.Hand;
-            btnlimpiarbuscador.FlatAppearance.BorderColor = Color.Black;
-            btnlimpiarbuscador.FlatStyle = FlatStyle.Flat;
-            btnlimpiarbuscador.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnlimpiarbuscador.ForeColor = Color.White;
-            btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            btnlimpiarbuscador.IconColor = Color.White;
-            btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnlimpiarbuscador.IconSize = 23;
-            btnlimpiarbuscador.Location = new Point(1203, 31);
-            btnlimpiarbuscador.Name = "btnlimpiarbuscador";
-            btnlimpiarbuscador.Size = new Size(39, 27);
-            btnlimpiarbuscador.TabIndex = 83;
-            btnlimpiarbuscador.UseVisualStyleBackColor = false;
             // 
             // btneliminarpago
             // 
@@ -132,7 +110,7 @@
             btneliminarpago.IconColor = Color.White;
             btneliminarpago.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btneliminarpago.IconSize = 25;
-            btneliminarpago.Location = new Point(26, 471);
+            btneliminarpago.Location = new Point(26, 535);
             btneliminarpago.Name = "btneliminarpago";
             btneliminarpago.Size = new Size(299, 33);
             btneliminarpago.TabIndex = 82;
@@ -155,11 +133,12 @@
             btnbuscar.IconColor = Color.White;
             btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnbuscar.IconSize = 22;
-            btnbuscar.Location = new Point(1153, 30);
+            btnbuscar.Location = new Point(1208, 28);
             btnbuscar.Name = "btnbuscar";
             btnbuscar.Size = new Size(39, 28);
             btnbuscar.TabIndex = 79;
             btnbuscar.UseVisualStyleBackColor = false;
+            btnbuscar.Click += btnbuscar_Click;
             // 
             // txtindice
             // 
@@ -170,34 +149,16 @@
             txtindice.Text = "-1";
             txtindice.Visible = false;
             // 
-            // txtbusqueda
-            // 
-            txtbusqueda.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txtbusqueda.Location = new Point(939, 31);
-            txtbusqueda.Name = "txtbusqueda";
-            txtbusqueda.Size = new Size(200, 27);
-            txtbusqueda.TabIndex = 77;
-            // 
-            // cbbusqueda
-            // 
-            cbbusqueda.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            cbbusqueda.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbbusqueda.FormattingEnabled = true;
-            cbbusqueda.Location = new Point(755, 30);
-            cbbusqueda.Name = "cbbusqueda";
-            cbbusqueda.Size = new Size(172, 28);
-            cbbusqueda.TabIndex = 76;
-            // 
             // label11
             // 
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label11.AutoSize = true;
             label11.BackColor = Color.White;
-            label11.Location = new Point(667, 33);
+            label11.Location = new Point(1068, 33);
             label11.Name = "label11";
-            label11.Size = new Size(82, 20);
+            label11.Size = new Size(125, 20);
             label11.TabIndex = 75;
-            label11.Text = "Buscar por:";
+            label11.Text = "Buscar un Cliente:";
             // 
             // txtid
             // 
@@ -254,25 +215,16 @@
             // 
             cbcuota.DropDownStyle = ComboBoxStyle.DropDownList;
             cbcuota.FormattingEnabled = true;
-            cbcuota.Location = new Point(43, 342);
+            cbcuota.Location = new Point(43, 352);
             cbcuota.Name = "cbcuota";
             cbcuota.Size = new Size(282, 28);
             cbcuota.TabIndex = 70;
-            // 
-            // cbcliente
-            // 
-            cbcliente.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbcliente.FormattingEnabled = true;
-            cbcliente.Location = new Point(43, 276);
-            cbcliente.Name = "cbcliente";
-            cbcliente.Size = new Size(282, 28);
-            cbcliente.TabIndex = 69;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.BackColor = Color.White;
-            label8.Location = new Point(43, 319);
+            label8.Location = new Point(43, 329);
             label8.Name = "label8";
             label8.Size = new Size(51, 20);
             label8.TabIndex = 68;
@@ -363,25 +315,30 @@
             label10.TabIndex = 73;
             label10.Text = "Lista de Pagos";
             // 
+            // txtCliente
+            // 
+            txtCliente.Location = new Point(43, 276);
+            txtCliente.Name = "txtCliente";
+            txtCliente.ReadOnly = true;
+            txtCliente.Size = new Size(282, 27);
+            txtCliente.TabIndex = 84;
+            // 
             // frmPago
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1291, 631);
+            Controls.Add(txtCliente);
             Controls.Add(btnguardarpago);
             Controls.Add(btnlimpiar);
-            Controls.Add(btnlimpiarbuscador);
             Controls.Add(btneliminarpago);
             Controls.Add(btnbuscar);
             Controls.Add(txtindice);
-            Controls.Add(txtbusqueda);
-            Controls.Add(cbbusqueda);
             Controls.Add(label11);
             Controls.Add(txtid);
             Controls.Add(dgvdata);
             Controls.Add(label9);
             Controls.Add(cbcuota);
-            Controls.Add(cbcliente);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(txtprecio);
@@ -404,18 +361,14 @@
 
         private FontAwesome.Sharp.IconButton btnguardarpago;
         private FontAwesome.Sharp.IconButton btnlimpiar;
-        private FontAwesome.Sharp.IconButton btnlimpiarbuscador;
         private FontAwesome.Sharp.IconButton btneliminarpago;
         private FontAwesome.Sharp.IconButton btnbuscar;
         private TextBox txtindice;
-        private TextBox txtbusqueda;
-        private ComboBox cbbusqueda;
         private Label label11;
         private TextBox txtid;
         private DataGridView dgvdata;
         private Label label9;
         private ComboBox cbcuota;
-        private ComboBox cbcliente;
         private Label label8;
         private Label label7;
         private TextBox txtprecio;
@@ -426,5 +379,6 @@
         private Label label2;
         private Label label1;
         private Label label10;
+        private TextBox txtCliente;
     }
 }
