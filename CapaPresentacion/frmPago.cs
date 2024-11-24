@@ -33,7 +33,7 @@ namespace CapaPresentacion
             MostrarDatos();
             MostrarCuotas();
             MostrarSocios();
-
+            txtfecha.Text = DateTime.Now.ToString("dd-MM-yyyy");
             /*
             //MOSTRAR LOS BOTONES SEGUN EL PERMISO
             List<Permiso> listaPermisos = _usuarioActual.GetPermisos();
