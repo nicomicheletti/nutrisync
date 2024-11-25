@@ -84,7 +84,7 @@ namespace CapaPresentacion
                     NombreCompleto = txtnombrecompleto.Text,
                     Correo = txtcorreo.Text,
                     Telefono = txttelefono.Text,
-                    Membresia = txtmembresia.Text, // Captura de Membresía
+                    Membresia = string.IsNullOrWhiteSpace(txtmembresia.Text) ? "NO SOCIO" : txtmembresia.Text, // Lógica para Membresía
                     Estado = Convert.ToInt32(((OpcionCombo)cbestado.SelectedItem).Valor) == 1
                 };
 

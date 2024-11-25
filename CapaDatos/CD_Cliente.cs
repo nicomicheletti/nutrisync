@@ -39,7 +39,7 @@ namespace CapaDatos
                                 Correo = dr["Correo"].ToString(),
                                 Telefono = dr["Telefono"].ToString(),
                                 Estado = Convert.ToBoolean(dr["Estado"]),
-                                Membresia = dr["Membresia"].ToString()
+                                Membresia = dr["Membresia"] != DBNull.Value ? dr["Membresia"].ToString() : "NO SOCIO"
                             });
                         }
                     }
