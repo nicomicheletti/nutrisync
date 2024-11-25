@@ -140,7 +140,7 @@ namespace CapaPresentacion
 
                 if (result == DialogResult.OK)
                 {
-                    txtCliente.Text = modal._Cliente.Documento;
+                    txtCliente.Text = Convert.ToString(modal._Cliente.IdCliente);
                 }
                 else
                 {

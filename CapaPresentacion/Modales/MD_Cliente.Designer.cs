@@ -37,9 +37,10 @@
             label11 = new Label();
             btnlimpiarbuscador = new FontAwesome.Sharp.IconButton();
             dgvdata = new DataGridView();
+            label10 = new Label();
             Documento = new DataGridViewTextBoxColumn();
             NombreCompleto = new DataGridViewTextBoxColumn();
-            label10 = new Label();
+            IdCliente = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvdata).BeginInit();
             SuspendLayout();
             // 
@@ -127,7 +128,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvdata.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvdata.Columns.AddRange(new DataGridViewColumn[] { Documento, NombreCompleto });
+            dgvdata.Columns.AddRange(new DataGridViewColumn[] { Documento, NombreCompleto, IdCliente });
             dgvdata.Location = new Point(12, 122);
             dgvdata.MultiSelect = false;
             dgvdata.Name = "dgvdata";
@@ -146,6 +147,18 @@
             dgvdata.TabIndex = 54;
             dgvdata.CellMouseDoubleClick += dgvdata_CellMouseDoubleClick;
             // 
+            // label10
+            // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            label10.BackColor = Color.White;
+            label10.BorderStyle = BorderStyle.FixedSingle;
+            label10.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(12, 10);
+            label10.Name = "label10";
+            label10.Size = new Size(657, 98);
+            label10.TabIndex = 55;
+            label10.Text = "Lista de Clientes";
+            // 
             // Documento
             // 
             Documento.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
@@ -162,17 +175,13 @@
             NombreCompleto.Name = "NombreCompleto";
             NombreCompleto.ReadOnly = true;
             // 
-            // label10
+            // IdCliente
             // 
-            label10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            label10.BackColor = Color.White;
-            label10.BorderStyle = BorderStyle.FixedSingle;
-            label10.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(12, 10);
-            label10.Name = "label10";
-            label10.Size = new Size(657, 98);
-            label10.TabIndex = 55;
-            label10.Text = "Lista de Clientes";
+            IdCliente.HeaderText = "ID";
+            IdCliente.MinimumWidth = 6;
+            IdCliente.Name = "IdCliente";
+            IdCliente.ReadOnly = true;
+            IdCliente.Width = 125;
             // 
             // MD_Cliente
             // 
@@ -208,5 +217,6 @@
         private Label label10;
         private DataGridViewTextBoxColumn Documento;
         private DataGridViewTextBoxColumn NombreCompleto;
+        private DataGridViewTextBoxColumn IdCliente;
     }
 }
