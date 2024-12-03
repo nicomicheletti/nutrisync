@@ -12,7 +12,7 @@ namespace CapaDatos
     public class Capa_Dato
     {
         //Cadena de conexion
-        private SqlConnection Conexion = new SqlConnection("Data Source=CQE14\\SQLEXPRESS;Initial Catalog=DB_NUTRISYNC;Integrated Security=true");
+        private SqlConnection Conexion = new SqlConnection("Data Source=DESKTOP-CUCT4QB\\SQLEXPRESS;Initial Catalog=DB_NUTRISYNC;Integrated Security=true");
 
         //Abrir conexion
         public SqlConnection Abrir()

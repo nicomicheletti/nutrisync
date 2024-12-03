@@ -51,14 +51,14 @@
             submenureporteventas = new ToolStripMenuItem();
             menubackup = new FontAwesome.Sharp.IconMenuItem();
             menuacercade = new FontAwesome.Sharp.IconMenuItem();
+            menumembresia = new FontAwesome.Sharp.IconMenuItem();
+            submenucuota = new ToolStripMenuItem();
+            submenupago = new ToolStripMenuItem();
             contenedor = new Panel();
             label1 = new Label();
             lblUsuario = new Label();
             menuStrip1 = new MenuStrip();
             btnsalir = new FontAwesome.Sharp.IconButton();
-            menumembresia = new FontAwesome.Sharp.IconMenuItem();
-            submenucuota = new ToolStripMenuItem();
-            submenupago = new ToolStripMenuItem();
             menu.SuspendLayout();
             SuspendLayout();
             // 
@@ -69,7 +69,7 @@
             menu.Items.AddRange(new ToolStripItem[] { menuseguridad, menuventas, menucompras, menureportes, menubackup, menuacercade, menumembresia });
             menu.Location = new Point(0, 73);
             menu.Name = "menu";
-            menu.Size = new Size(1253, 73);
+            menu.Size = new Size(1253, 78);
             menu.TabIndex = 0;
             menu.Text = "menuStrip1";
             // 
@@ -167,42 +167,42 @@
             // submenuCategoria
             // 
             submenuCategoria.Name = "submenuCategoria";
-            submenuCategoria.Size = new Size(208, 26);
+            submenuCategoria.Size = new Size(224, 26);
             submenuCategoria.Text = "Categoria";
             submenuCategoria.Click += submenuCategoria_Click;
             // 
             // submenuhistorialcompras
             // 
             submenuhistorialcompras.Name = "submenuhistorialcompras";
-            submenuhistorialcompras.Size = new Size(208, 26);
+            submenuhistorialcompras.Size = new Size(224, 26);
             submenuhistorialcompras.Text = "Compras";
             submenuhistorialcompras.Click += submenuhistorialcompras_Click;
             // 
             // submenunegocio
             // 
             submenunegocio.Name = "submenunegocio";
-            submenunegocio.Size = new Size(208, 26);
+            submenunegocio.Size = new Size(224, 26);
             submenunegocio.Text = "Negocio";
             submenunegocio.Click += submenunegocio_Click;
             // 
             // submenuProducto
             // 
             submenuProducto.Name = "submenuProducto";
-            submenuProducto.Size = new Size(208, 26);
+            submenuProducto.Size = new Size(224, 26);
             submenuProducto.Text = "Producto";
             submenuProducto.Click += submenuProducto_Click;
             // 
             // submenuProveedores
             // 
             submenuProveedores.Name = "submenuProveedores";
-            submenuProveedores.Size = new Size(208, 26);
+            submenuProveedores.Size = new Size(224, 26);
             submenuProveedores.Text = "Proveedores";
             submenuProveedores.Click += submenuProveedores_Click;
             // 
             // submenuCompras
             // 
             submenuCompras.Name = "submenuCompras";
-            submenuCompras.Size = new Size(208, 26);
+            submenuCompras.Size = new Size(224, 26);
             submenuCompras.Text = "Registrar Compra";
             submenuCompras.Click += submenuCompras_Click;
             // 
@@ -223,14 +223,14 @@
             // submenureportecompras
             // 
             submenureportecompras.Name = "submenureportecompras";
-            submenureportecompras.Size = new Size(208, 26);
+            submenureportecompras.Size = new Size(224, 26);
             submenureportecompras.Text = "Reporte Compras";
             submenureportecompras.Click += submenureportecompras_Click;
             // 
             // submenureporteventas
             // 
             submenureporteventas.Name = "submenureporteventas";
-            submenureporteventas.Size = new Size(208, 26);
+            submenureporteventas.Size = new Size(224, 26);
             submenureporteventas.Text = "Reporte Ventas";
             submenureporteventas.Click += submenureporteventas_Click;
             // 
@@ -262,13 +262,40 @@
             menuacercade.TextImageRelation = TextImageRelation.ImageAboveText;
             menuacercade.Click += menuacercade_Click;
             // 
+            // menumembresia
+            // 
+            menumembresia.DropDownItems.AddRange(new ToolStripItem[] { submenucuota, submenupago });
+            menumembresia.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
+            menumembresia.IconColor = Color.Black;
+            menumembresia.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            menumembresia.IconSize = 50;
+            menumembresia.ImageScaling = ToolStripItemImageScaling.None;
+            menumembresia.Name = "menumembresia";
+            menumembresia.Size = new Size(97, 74);
+            menumembresia.Text = "Membresía";
+            menumembresia.TextImageRelation = TextImageRelation.ImageAboveText;
+            // 
+            // submenucuota
+            // 
+            submenucuota.Name = "submenucuota";
+            submenucuota.Size = new Size(224, 26);
+            submenucuota.Text = "Cuota";
+            submenucuota.Click += cuotaToolStripMenuItem_Click;
+            // 
+            // submenupago
+            // 
+            submenupago.Name = "submenupago";
+            submenupago.Size = new Size(224, 26);
+            submenupago.Text = "Pago";
+            submenupago.Click += submenupago_Click;
+            // 
             // contenedor
             // 
             contenedor.Dock = DockStyle.Fill;
-            contenedor.Location = new Point(0, 146);
+            contenedor.Location = new Point(0, 151);
             contenedor.Margin = new Padding(3, 4, 3, 4);
             contenedor.Name = "contenedor";
-            contenedor.Size = new Size(1253, 683);
+            contenedor.Size = new Size(1253, 678);
             contenedor.TabIndex = 3;
             // 
             // label1
@@ -322,30 +349,6 @@
             btnsalir.TabIndex = 7;
             btnsalir.UseVisualStyleBackColor = false;
             btnsalir.Click += btnsalir_Click;
-            // 
-            // menumembresia
-            // 
-            menumembresia.DropDownItems.AddRange(new ToolStripItem[] { submenucuota, submenupago });
-            menumembresia.IconChar = FontAwesome.Sharp.IconChar.None;
-            menumembresia.IconColor = Color.Black;
-            menumembresia.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            menumembresia.Name = "menumembresia";
-            menumembresia.Size = new Size(117, 69);
-            menumembresia.Text = "Membresía";
-            // 
-            // submenucuota
-            // 
-            submenucuota.Name = "submenucuota";
-            submenucuota.Size = new Size(224, 26);
-            submenucuota.Text = "Cuota";
-            submenucuota.Click += cuotaToolStripMenuItem_Click;
-            // 
-            // submenupago
-            // 
-            submenupago.Name = "submenupago";
-            submenupago.Size = new Size(224, 26);
-            submenupago.Text = "Pago";
-            submenupago.Click += submenupago_Click;
             // 
             // Inicio
             // 

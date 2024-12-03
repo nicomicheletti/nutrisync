@@ -13,7 +13,7 @@ ADD CONSTRAINT DF_CLIENTE_Membresia DEFAULT 'NO SOCIO' FOR Membresia;
 
 SELECT * FROM CLIENTE
 --///////////////////////////////////////////////////////////////////////////////////////////////////////
-
+drop TRIGGER trg_ActualizarMembresia
 create TRIGGER trg_ActualizarMembresia
 ON Pagos
 AFTER INSERT, UPDATE, DELETE

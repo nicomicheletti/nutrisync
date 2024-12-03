@@ -328,6 +328,9 @@ select * from NEGOCIO
 select * from VENTA
 select * from PRODUCTO
 select * from DETALLE_VENTA
+select * from CLIENTE
+select * from Pagos
+select * from Cuotas
 
 select * from AuditoriaVentas
 
@@ -339,3 +342,102 @@ values (1,1),(1,2),(1,34),(1,42),(1,43),(1,44),(1,45)
 
 insert into NEGOCIO
 VALUES (1,'NUTRISYNç',1234,'CORDOBA 2020',NULL)
+
+----CARGA DE DATOS
+begin tran
+INSERT INTO CLIENTE (Documento, NombreCompleto, Correo, Telefono, Estado, FechaRegistro, Membresia)
+VALUES
+('12345678', 'Lionel Messi', 'lmessi@example.com', '3411234567', 1, GETDATE(), 'NO SOCIO'),
+('23456789', 'Cristiano Ronaldo', 'cronaldo@example.com', '3412234567', 1, GETDATE(), 'NO SOCIO'),
+('34567890', 'Neymar Junior', 'neymarjr@example.com', '3413234567', 1, GETDATE(), 'NO SOCIO'),
+('45678901', 'Kylian Mbappé', 'kmbappe@example.com', '3414234567', 1, GETDATE(), 'NO SOCIO'),
+('56789012', 'Luka Modric', 'lmodric@example.com', '3415234567', 1, GETDATE(), 'NO SOCIO'),
+('67890123', 'Sergio Ramos', 'sramos@example.com', '3416234567', 1, GETDATE(), 'NO SOCIO'),
+('78901234', 'Karim Benzema', 'kbenzema@example.com', '3417234567', 0, GETDATE(), 'NO SOCIO'),
+('89012345', 'Paulo Dybala', 'pdybala@example.com', '3418234567', 1, GETDATE(), 'NO SOCIO'),
+('90123456', 'Kevin De Bruyne', 'kdebruyne@example.com', '3419234567', 0, GETDATE(), 'NO SOCIO'),
+('01234567', 'Virgil Van Dijk', 'vvdijk@example.com', '3410234567', 1, GETDATE(), 'NO SOCIO');
+commit
+rollback
+select * from CLIENTE
+
+select * from PROVEEDOR
+
+begin tran
+INSERT INTO PROVEEDOR (Documento, RazonSocial, Correo, Telefono, Estado, FechaRegistro)
+VALUES
+('10111213', 'ProSports Nutrition', 'info@prosports.com', '3411112233', 1, GETDATE()),
+('20212223', 'MuscleBoosters', 'contact@muscleboosters.com', '3412223344', 1, GETDATE()),
+('30313233', 'FitFuel Supplies', 'support@fitfuel.com', '3413334455', 1, GETDATE()),
+('40414243', 'PowerMax Nutrition', 'sales@powermax.com', '3414445566', 1, GETDATE()),
+('50515253', 'Elite Supps Co.', 'info@elitesupps.com', '3415556677', 0, GETDATE()),
+('60616263', 'Iron Gain Labs', 'contact@irongainlabs.com', '3416667788', 1, GETDATE()),
+('70717273', 'NutriPro Solutions', 'support@nutripro.com', '3417778899', 1, GETDATE()),
+('80818283', 'MegaMuscle Supplements', 'sales@megamuscle.com', '3418889900', 1, GETDATE()),
+('90919293', 'Protein World', 'info@proteinworld.com', '3419990011', 0, GETDATE()),
+('01020304', 'Gym Essentials', 'contact@gymessentials.com', '3410001122', 1, GETDATE());
+commit
+
+select * from CATEGORIA
+begin tran
+INSERT INTO CATEGORIA (Descripcion, Estado, FechaRegistro)
+VALUES
+('Vitaminas y Minerales', 1, GETDATE()),
+('Ganadores de Peso', 1, GETDATE()),
+('Óxido Nítrico', 1, GETDATE()),
+('Barras Proteicas', 1, GETDATE()),
+('Electrolitos e Hidratación', 1, GETDATE()),
+('Snacks Saludables', 1, GETDATE()),
+('Suplementos Naturales', 1, GETDATE()),
+('Recuperadores Musculares', 1, GETDATE()),
+('Multivitamínicos', 1, GETDATE()),
+('Antioxidantes', 1, GETDATE());
+commit
+
+begin tran
+-- Generar 50 productos aleatorios para la tabla PRODUCTO
+INSERT INTO PRODUCTO (Codigo, Nombre, Descripcion, IdCategoria, Stock, PrecioCompra, PrecioVenta, Estado, FechaRegistro)
+VALUES
+-- CREATINAS
+('CR001', 'Creatina Monohidratada', 'Creatina de alta pureza para rendimiento muscular', 1, 50, 1500.00, 2000.00, 1, GETDATE()),
+('CR002', 'Creatina Micronizada', 'Creatina fácilmente absorbible', 1, 40, 1600.00, 2100.00, 1, GETDATE()),
+('CR003', 'Creatina Líquida', 'Creatina en presentación líquida para rápida absorción', 1, 30, 1700.00, 2200.00, 1, GETDATE()),
+('CR004', 'Creatina HCL', 'Creatina avanzada para mayor solubilidad', 1, 25, 1800.00, 2300.00, 1, GETDATE()),
+('CR005', 'Creatina Combo Pack', 'Paquete con varias presentaciones de creatina', 1, 20, 1900.00, 2500.00, 1, GETDATE()),
+
+-- PROTEINAS
+('PR001', 'Proteína Whey Isolada', 'Proteína aislada para crecimiento muscular', 2, 60, 3000.00, 4000.00, 1, GETDATE()),
+('PR002', 'Proteína Vegana', 'Proteína a base de plantas', 2, 50, 2800.00, 3700.00, 1, GETDATE()),
+('PR003', 'Proteína Hidrolizada', 'Proteína premium para rápida absorción', 2, 30, 3200.00, 4300.00, 1, GETDATE()),
+('PR004', 'Proteína de Caseína', 'Proteína de liberación lenta para recuperación nocturna', 2, 35, 2500.00, 3400.00, 1, GETDATE()),
+('PR005', 'Proteína Gourmet', 'Proteína con sabores únicos y deliciosos', 2, 40, 2700.00, 3600.00, 1, GETDATE()),
+
+-- PRE ENTRENO
+('PE001', 'Pre Entreno Explosivo', 'Pre entreno para máxima energía', 3, 45, 2200.00, 3000.00, 1, GETDATE()),
+('PE002', 'Pre Entreno Avanzado', 'Pre entreno con ingredientes premium', 3, 30, 2400.00, 3200.00, 1, GETDATE()),
+('PE003', 'Pre Entreno Natural', 'Pre entreno sin estimulantes artificiales', 3, 25, 2100.00, 2900.00, 1, GETDATE()),
+('PE004', 'Pre Entreno Sabor Frutas', 'Pre entreno con sabores frutales', 3, 50, 2300.00, 3100.00, 1, GETDATE()),
+('PE005', 'Pre Entreno Ultra', 'Pre entreno con alto contenido de cafeína', 3, 20, 2500.00, 3300.00, 1, GETDATE()),
+
+-- AMINOACIDOS
+('AM001', 'BCAA 2:1:1', 'Aminoácidos esenciales para recuperación', 4, 40, 1800.00, 2500.00, 1, GETDATE()),
+('AM002', 'BCAA en Polvo', 'BCAA con sabor a limón', 4, 35, 1700.00, 2400.00, 1, GETDATE()),
+('AM003', 'BCAA Premium', 'BCAA de alta calidad', 4, 30, 1900.00, 2600.00, 1, GETDATE()),
+('AM004', 'EAA Completo', 'Aminoácidos esenciales completos', 4, 25, 2000.00, 2700.00, 1, GETDATE()),
+('AM005', 'Aminoácidos Bebibles', 'Presentación lista para consumir', 4, 20, 2100.00, 2800.00, 1, GETDATE()),
+
+-- QUEMADORES
+('QU001', 'Quemador de Grasa Avanzado', 'Quemador con ingredientes premium', 5, 30, 2500.00, 3200.00, 1, GETDATE()),
+('QU002', 'Quemador Natural', 'Quemador con ingredientes naturales', 5, 25, 2400.00, 3100.00, 1, GETDATE()),
+('QU003', 'Quemador en Cápsulas', 'Presentación en cápsulas para comodidad', 5, 20, 2300.00, 3000.00, 1, GETDATE()),
+('QU004', 'Quemador Ultra', 'Quemador con alta concentración', 5, 15, 2600.00, 3300.00, 1, GETDATE()),
+('QU005', 'Quemador Saborizado', 'Quemador en polvo con sabor', 5, 10, 2200.00, 2900.00, 1, GETDATE()),
+
+-- OTRAS CATEGORÍAS
+('VM001', 'Multivitamínico Completo', 'Suplemento con vitaminas esenciales', 6, 50, 1000.00, 1500.00, 1, GETDATE()),
+('VM002', 'Vitamina C 1000mg', 'Refuerzo para el sistema inmunológico', 6, 60, 900.00, 1400.00, 1, GETDATE()),
+('VM003', 'Vitamina D3', 'Esencial para la salud ósea', 6, 40, 1100.00, 1600.00, 1, GETDATE()),
+('VM004', 'Complejo B', 'Mejora del metabolismo y energía', 6, 30, 950.00, 1450.00, 1, GETDATE()),
+('VM005', 'Zinc + Magnesio', 'Minerales esenciales para recuperación', 6, 35, 1200.00, 1700.00, 1, GETDATE());
+commit
+select * from PRODUCTO

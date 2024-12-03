@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaDatos\\CapaDatos.csproj": {}
+    "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaDatos\\CapaDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaDatos\\CapaDatos.csproj": {
+    "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaDatos\\CapaDatos.csproj",
-        "packagesPath": "C:\\Users\\Ezequiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaDatos\\obj\\",
+        "projectPath": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaDatos\\CapaDatos.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ezequiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaEntidad\\CapaEntidad.csproj": {
-                "projectPath": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaEntidad\\CapaEntidad.csproj"
+              "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaEntidad\\CapaEntidad.csproj"
               }
             }
           }
@@ -78,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaEntidad\\CapaEntidad.csproj": {
+    "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaEntidad\\CapaEntidad.csproj",
-        "packagesPath": "C:\\Users\\Ezequiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ezequiel\\Desktop\\DIPLOMA\\nutrisync\\CapaEntidad\\obj\\",
+        "projectPath": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaEntidad\\CapaEntidad.csproj",
+        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nico\\Source\\Repos\\nutrisync\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ezequiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
